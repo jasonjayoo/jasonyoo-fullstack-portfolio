@@ -1,11 +1,7 @@
 
 :root {
     --border-color:black;
-    --shadow-color: rgba(16,16,16,0.4);
-}
-
-body {
-    /* background: linear-gradient(90deg, lightyellow , lightgreen 30%, teal); */
+    --shadow-color: rgba(27, 26, 26, 0.4);
 }
 
 .card-container {
