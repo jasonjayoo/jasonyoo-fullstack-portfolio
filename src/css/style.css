@@ -117,3 +117,156 @@ body {
     padding-top: 10px;
     color: whitesmoke;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo{
+    max-width: 100px;
+    align-self: center;
+    margin: auto;
+}
+
+.logo-long{
+    max-width:200px;
+    max-height: 50px;
+}
+
+.logo-medium{
+    max-width: 110px;
+    max-height: 75px;
+}
+
+.skills{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-container{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.input{
+    margin: 10px 40px 10px 40px;
+}
+
+.btn{
+
+    margin-top:10px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+
+
+.resume{
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	/* background: #007b5e; */
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: transparent;
+    border-color: transparent transparent white;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+
+#carouselExampleControls, #carouselExampleControls2{
+    max-width: 275px;
+}
+
+.carousel-caption{
+    position: relative;
+    left: 0;
+    top: 1;
+    color: black;
+    height: 100px;
+}
+
+.carousel-caption h5{
+ position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #020706,
+        1px 2px 1px #020706,
+        1px 3px 1px #020706,
+        1px 4px 1px #020706,
+        1px 5px 1px #020706,
+        1px 6px 1px #020706,
+        1px 6px 3px rgba(16,16,16,0.4),
+        1px 10px 5px rgba(16,16,16,0.2),
+        1px 12px 15px rgba(16,16,16,0.2),
+        1px 18px 30px rgba(16,16,16,0.4);
+}
+
+.skills{
+     font-size: 1.75em;
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #020706,
+    1px 2px 1px #020706,
+    1px 3px 1px #020706,
+    1px 4px 1px #020706,
+    1px 5px 1px #020706,
+    1px 6px 1px #020706,
+    1px 6px 3px rgba(16,16,16,0.4),
+    1px 10px 5px rgba(16,16,16,0.2),
+    1px 12px 15px rgba(16,16,16,0.2),
+    1px 18px 30px rgba(16,16,16,0.4);
+}
+
+h1 {
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #020706,
+    1px 2px 1px #020706,
+    1px 3px 1px #020706,
+    1px 4px 1px #020706,
+    1px 5px 1px #020706,
+    1px 6px 1px #020706,
+    1px 6px 3px rgba(16,16,16,0.4),
+    1px 10px 5px rgba(16,16,16,0.2),
+    1px 12px 15px rgba(16,16,16,0.2),
+    1px 18px 30px rgba(16,16,16,0.4);
+}
