@@ -4,7 +4,7 @@ import profilePic from "../../assets/mypicture.jpg";
 export default function About() {
   return (
     <div id="about">
-      <img id="jason" src={profilePic} />
+      <img id="jason" alt="picture of Jason Yoo" src={profilePic} />
       <h1>Hi, I'm Jason!</h1>
       <p>
         My name is Jason Yoo and I am a Front-End Web Developer. I am well

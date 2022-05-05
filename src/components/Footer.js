@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="logolinks flex-inline justify-content-center">
     <div className="logos">
-      <a id="github" href="https://github.com/jasonjayoo" className="githublogo" target="_blank">
+      <a id="github" href="https://github.com/jasonjayoo" className="githublogo" target="_blank" rel="noreferrer">
         <i class="fab fa-github-square fa-3x contact"></i>
       </a>
 
