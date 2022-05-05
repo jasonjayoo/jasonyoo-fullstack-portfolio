@@ -1,12 +1,12 @@
 # React Portfolio
 
-(React Portfolio)
+My Professional Portfolio - Build with React.js
 
 <br>
 
 ## Description: 
 
-My Professional Portfolio - Build with React.js
+A Portfolio built with React.js
 
 <br> 
 
@@ -21,11 +21,12 @@ My Professional Portfolio - Build with React.js
 - [Badges](#badges)
 - [Features](#features)
 - [How](#howtocontribute)
-- [Criteria](#criteria)
-- [HTML](#html)
-- [CSS](#css)
+- [Tests](#tests)
+- [Details](#details)
 - [Github](#github)
 - [URL](#url)
+- [Author](#author)
+- [Questions](#questions)
 
 <br>
 
@@ -36,9 +37,8 @@ My Professional Portfolio - Build with React.js
 <br>
 <br>
 
-## Usage: screenshots - (Highlighted Title(s) = a hyperlink to the direct image)
+## Usage: 
 
-<br>
 <br>
 
 [Screenshot](./src/assets/Screenshot.png)  "Deployed Landing Page"
@@ -62,7 +62,7 @@ My Professional Portfolio - Build with React.js
 
 ## Badges:
 <br>
-    - UCI Full Stack Bootcamp
+    - UCI Full Stack Bootcamp Graduate circa 2022
 <br>
 <br>
 
@@ -89,57 +89,41 @@ My Professional Portfolio - Build with React.js
 <br>
 <br>
 
-
-<br>
-<br>
-
-## HTML - Details:
+## Details:
 
 <br>
 
-1. Utilized Bulma CSS Framework, Font Awesome, A splash of jquery, and moment js. 
-2. Created sections for header + nav bar, hero, about, edu, works, more works, and contact.
-3. Added h2's images and p tags to each segment and fill it with pertinent information.
-4. Added href links to all live websites and contact information.
-5. Set up columns and rows using Bulma.
+1. Implemented npm packages [axios, tsparticles, bootstrap, pretty] in conjunction with React.js
+2. JSX was utilized to render the front-end UI.
+3. My resume is downloadable to users.
+4. List of my programming knowledge located in a togglable carousel.
+5. Asyncronous user interface.
 
 <br>
 
-## CSS - Details:
-
-<br>
-
-1. Created customer floating nav bar. 
-2. Set unique background color/image for body of the page to a linear gradient of two different grays.
-3. Font set to monospace and BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif.
-4. customized specs for each h2, imgs and paragraphs.
-5. Implemented @keyframes animation specs for hero text with specified time delayed reveals.
-6. Set specs for date and time stylization.
-7. Set custom specs for the hero section.
-8. Set custom specs for nav bar/header section.
-9. Created hamburger nav for mobile and tablet screens.
-10. Added customer features to the contact info section. 
-11. Created specific media queries to stream line display aspects depending on different screen sizes. 
-
-<br>
-
-## JS - Details:
-
-1. Created event listener for hamburger nav bar and regular nav bar clicks to handle users clicks to view specific sections of the portfolio.
-
-2. Implemented moment.js to render time on the DOM 
- 
-<br>
 
 ## Github (Github Repository):
 
-Click [here](https://github.com/jasonjayoo/Full-Stack-Portfolio) to go to my Full-Stack-Portfolio Github Repository
+Click [here](https://github.com/jasonjayoo/jasonyoo-fullstack-portfolio) to go to my React Portfolio Github Repository
 
 <br>
 
 ## URL (Published Webpage):
 
-<a href="https://jasonjayoo.github.io/Full-Stack-Portfolio/" target="_blank">Full-Stack-Portfolio</a>
+<a href="https://jasonjayoo.github.io/jasonyoo-fullstack-portfolio/" target="_blank">My-Portfolio</a>
+
+
+## Author:
+                         Jason Yoo
+  
+
+## Questions:
+  For any questions regarding this application, you may reach me directly at jasonjayoo@outlook.com.
+
+  To view my other applications, please check out my github page [jasonjayoo](https://github.com/jasonjayoo).
+
+
+
 
 
 

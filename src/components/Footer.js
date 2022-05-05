@@ -15,6 +15,16 @@ const Footer = () => {
       >
         <i class="fab fa-linkedin fa-3x contact" id="linkedinlogo"></i>
       </a>
+
+      <a
+        id="myemail"
+        href="mailto:jasonjayoo@outlook.com"
+        alt="email Jason Yoo"
+        title="email me at jasonjayoo@outlook.com"
+      >
+        <i class="fa fa-envelope fa-3x contact" id="emaillogo"></i>
+      </a>
+
       </div>  
       <footer className="copyright has-text-centered">
         <h4>

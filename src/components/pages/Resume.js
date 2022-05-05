@@ -16,7 +16,7 @@ import resume from '../../assets/resume.pdf'
 
 export default function Resume() {
   return (
-    <div>
+    <div className="mainContainer">
       <div className="container skills-container">
         <h2 className="skills">Front-End Skill Sets</h2>
         <div id="carouselExampleControls" className="carousel slide mx-auto" data-ride="carousel">
@@ -126,8 +126,8 @@ export default function Resume() {
           </a>
         </div>
       </div>
-      <a className="resume" href={resume} download="Jason Yoo Resume" target="blank">
-        <h1>Resume Download</h1>
+      <a className="resume" href={resume} download="Jason Yoo's Resume" target="blank">
+        <h3>Resume Download</h3>
       </a>
     </div >
   );
