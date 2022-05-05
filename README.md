@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(React Portfolio)
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## Description: 
 
-### `npm start`
+My Professional Portfolio - Build with React.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br> 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents:
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Deployed](#deployed)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [How](#howtocontribute)
+- [Criteria](#criteria)
+- [HTML](#html)
+- [CSS](#css)
+- [Github](#github)
+- [URL](#url)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployed
+<br>
+** Go to <a href="https://jasonjayoo.github.io/jasonyoo-fullstack-portfolio/" target="_blank">My-Portfolio</a> In order to view My React Portfolio Webpage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage: screenshots - (Highlighted Title(s) = a hyperlink to the direct image)
 
-### `npm run eject`
+<br>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Screenshot](./src/assets/Screenshot.png)  "Deployed Landing Page"
+<img src="./src/assets/Screenshot.png">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Credits:
 
-## Learn More
+- I would like to thank my esteemed cohort member Mr. Marcus Lewis for introducing me to tsparticles!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License:
+<br>
+    -  MIT License - Copyright (c) 2022 Jason Yoo
+<br>
+<br>
 
-### Code Splitting
+## Badges:
+<br>
+    - UCI Full Stack Bootcamp
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features:
+<br>
+    - Dynamic single page application built with React.js
+    - Picture of me and some information about myself
+    - Information of my educational background
+    - Images/links of my six main projects, links to the deploy websites and github repositories.
+    - Contact section with links to my resume, email, and linkedin profile with links once clicked will open new tab. 
 
-### Analyzing the Bundle Size
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How to Contribute:
+<br>
+    - My github repository is publically viewable. If you would to contribute to the webpage please email me at my link on the webpage with you github username and I will add you as a contributor on the repo. 
+<br>
+<br>
 
-### Making a Progressive Web App
+## Tests:
+<br>
+    - You can test out the webpage on vsc or directly in the inspect window of your browser. 
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<br>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## HTML - Details:
 
-### Deployment
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Utilized Bulma CSS Framework, Font Awesome, A splash of jquery, and moment js. 
+2. Created sections for header + nav bar, hero, about, edu, works, more works, and contact.
+3. Added h2's images and p tags to each segment and fill it with pertinent information.
+4. Added href links to all live websites and contact information.
+5. Set up columns and rows using Bulma.
 
-### `npm run build` fails to minify
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## CSS - Details:
+
+<br>
+
+1. Created customer floating nav bar. 
+2. Set unique background color/image for body of the page to a linear gradient of two different grays.
+3. Font set to monospace and BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif.
+4. customized specs for each h2, imgs and paragraphs.
+5. Implemented @keyframes animation specs for hero text with specified time delayed reveals.
+6. Set specs for date and time stylization.
+7. Set custom specs for the hero section.
+8. Set custom specs for nav bar/header section.
+9. Created hamburger nav for mobile and tablet screens.
+10. Added customer features to the contact info section. 
+11. Created specific media queries to stream line display aspects depending on different screen sizes. 
+
+<br>
+
+## JS - Details:
+
+1. Created event listener for hamburger nav bar and regular nav bar clicks to handle users clicks to view specific sections of the portfolio.
+
+2. Implemented moment.js to render time on the DOM 
+ 
+<br>
+
+## Github (Github Repository):
+
+Click [here](https://github.com/jasonjayoo/Full-Stack-Portfolio) to go to my Full-Stack-Portfolio Github Repository
+
+<br>
+
+## URL (Published Webpage):
+
+<a href="https://jasonjayoo.github.io/Full-Stack-Portfolio/" target="_blank">Full-Stack-Portfolio</a>
+
+
+
