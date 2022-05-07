@@ -14,6 +14,9 @@ export default function PortfolioMain() {
     if (currentPage === 'About') {
       return <About />;
     }
+    // if (currentPage === 'Edu') {
+    //   return <Edu />;
+    // }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
