@@ -112,14 +112,14 @@
 #about p {
     padding-top: 10px;
     color: whitesmoke;
-    animation: text_reveal 1s ease forwards;
+    animation: text_reveal 2.2s ease forwards;
 }
 
 @keyframes text_reveal {
   1% {
     
     font-family: Garamond, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
@@ -300,7 +300,7 @@ section .section-title {
 }
 
 #nameSpan {
-    animation: 2s slideDown;
+    animation: 5s slideDown;
 }
 
 h1 {
