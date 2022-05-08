@@ -216,6 +216,7 @@ export default function Portfolio() {
         </a>
 
         {/* Work Day Planner */}
+        <a href="https://jasonjayoo.github.io/The-Work-Day-Planner/" alt="Work Day Planner" Title="This is a link to " target="_blank">
         <div className="card">
           <img
             className="card-img-top"
@@ -254,6 +255,7 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
+        </a>
       </div>
     </div>
   );
