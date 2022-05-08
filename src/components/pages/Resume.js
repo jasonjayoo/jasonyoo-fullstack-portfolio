@@ -1,25 +1,39 @@
-import React from 'react';
-import html5 from '../../assets/html5.png';
-import css3 from '../../assets/css3.png';
-import bootstrap from '../../assets/bootstrap-logo.png';
-import bulma from '../../assets/bulma.png';
-import javascript from '../../assets/javascript.png';
-import jquery from '../../assets/jquery.png';
-import mongodb from '../../assets/mongodb.png';
-import mongoose from '../../assets/mongoose.png';
-import mysql from '../../assets/mysql.png';
-import node from '../../assets/node.png';
-import reactLogo from '../../assets/react.png';
-import sequelize from '../../assets/sequelize.png';
-import express from '../../assets/express.png'
-import resume from '../../assets/resume.pdf'
+import React from "react";
+import html5 from "../../assets/html5.png";
+import css3 from "../../assets/css3.png";
+import bootstrap from "../../assets/bootstrap-logo.png";
+import bulma from "../../assets/bulma.png";
+import javascript from "../../assets/javascript.png";
+import jquery from "../../assets/jquery.png";
+import mongodb from "../../assets/mongodb.png";
+import mongoose from "../../assets/mongoose.png";
+import mysql from "../../assets/mysql.png";
+import node from "../../assets/node.png";
+import reactLogo from "../../assets/react.png";
+import sequelize from "../../assets/sequelize.png";
+import express from "../../assets/express.png";
+import resume from "../../assets/resume.pdf";
 
 export default function Resume() {
   return (
     <div className="mainContainer">
+      <div className="resumeBtn">
+        <a
+          className="resume"
+          href={resume}
+          download="Jason Yoo's Resume"
+          target="blank"
+        >
+          <h3>Download Resume</h3>
+        </a>
+      </div>
       <div className="container skills-container">
         <h2 className="skills">Front-End Skill Sets</h2>
-        <div id="carouselExampleControls" className="carousel slide mx-auto" data-ride="carousel">
+        <div
+          id="carouselExampleControls"
+          className="carousel slide mx-auto"
+          data-ride="carousel"
+        >
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="d-block w-100 logo" src={html5} alt="HTML5" />
@@ -34,7 +48,11 @@ export default function Resume() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100 logo" src={javascript} alt="JavaScript" />
+              <img
+                className="d-block w-100 logo"
+                src={javascript}
+                alt="JavaScript"
+              />
               <div className="carousel-caption">
                 <h5>JavaScript</h5>
               </div>
@@ -52,18 +70,38 @@ export default function Resume() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100 logo" src={bootstrap} alt="Bootstrap" />
+              <img
+                className="d-block w-100 logo"
+                src={bootstrap}
+                alt="Bootstrap"
+              />
               <div className="carousel-caption">
                 <h5>Bootstrap</h5>
               </div>
             </div>
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <a
+            className="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Previous</span>
           </a>
-          <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <a
+            className="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Next</span>
           </a>
         </div>
@@ -71,7 +109,11 @@ export default function Resume() {
 
       <div className="container skills-container">
         <h2 className="skills">Back-End Skill Sets</h2>
-        <div id="carouselExampleControls2" className="carousel slide mx-auto" data-ride="carousel">
+        <div
+          id="carouselExampleControls2"
+          className="carousel slide mx-auto"
+          data-ride="carousel"
+        >
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img className="d-block w-100 logo" src={mongodb} alt="MongoDB" />
@@ -86,7 +128,11 @@ export default function Resume() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100 logo" src={sequelize} alt="Sequelize" />
+              <img
+                className="d-block w-100 logo"
+                src={sequelize}
+                alt="Sequelize"
+              />
               <div className="carousel-caption">
                 <h5>Sequelize</h5>
               </div>
@@ -104,31 +150,52 @@ export default function Resume() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100 logo" src={reactLogo} alt="React.js" />
+              <img
+                className="d-block w-100 logo"
+                src={reactLogo}
+                alt="React.js"
+              />
               <div className="carousel-caption">
                 <h5>React</h5>
               </div>
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100 logo" src={mongoose} alt="Mongoose" />
+              <img
+                className="d-block w-100 logo"
+                src={mongoose}
+                alt="Mongoose"
+              />
               <div className="carousel-caption">
                 <h5>Mongoose</h5>
               </div>
             </div>
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <a
+            className="carousel-control-prev"
+            href="#carouselExampleControls2"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Previous</span>
           </a>
-          <a className="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-            <span className="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <a
+            className="carousel-control-next"
+            href="#carouselExampleControls2"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
             <span className="sr-only">Next</span>
           </a>
         </div>
       </div>
-      <a className="resume" href={resume} download="Jason Yoo's Resume" target="blank">
-        <h3>Resume Download</h3>
-      </a>
-    </div >
+    </div>
   );
 }

@@ -216,6 +216,7 @@ const sendEmail = async (content) => {
         encType="text/plain"
         name="EmailForm"
       > */}
+      <div className="mainContact">
       <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
         <input
           name="from_name"
@@ -226,7 +227,7 @@ const sendEmail = async (content) => {
           placeholder="Your name"
         />
         <p className="input" style={{ display: validName ? "none" : "block" }}>
-          Please enter a valid name.
+          <span>Please enter a valid name.</span>
         </p>
         <input
           id="email"
@@ -237,7 +238,7 @@ const sendEmail = async (content) => {
           onChange={validateFormFields}
         />
         <p className="input" style={{ display: validated ? "none" : "block" }}>
-          Please enter a valid email address.
+          <span>Please enter a valid email address.</span>
         </p>
         <textarea
           className="input"
@@ -272,9 +273,10 @@ const sendEmail = async (content) => {
             display: validName && validMessage && validated ? "none" : "block",
           }}
         >
-          Please complete all fields to submit.
+        Please complete all fields to submit.
         </p>
       {/* </form> */}
+      </div>
       </div>
     </div>
   );
