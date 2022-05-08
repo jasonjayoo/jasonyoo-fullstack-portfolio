@@ -58,6 +58,7 @@ export default function Portfolio() {
         </a>
 
         {/* Food For Thought*/}
+        <a href="https://jasonjayoo.github.io/Food-For-Thought/" alt="Food For Thought Web Application" Title="This is a link to " target="_blank">
         <div className="card">
           <img
             className="card-img-top"
@@ -97,8 +98,10 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
+        </a>
 
         {/*The Tech Blog*/}
+        <a href="https://quiet-journey-86661.herokuapp.com/" alt="The Tech Blog" Title="This is a link to " target="_blank">
         <div className="card">
           <img className="card-img-top" src={techBlog} alt="The Tech Blog" />
           <div className="card-body">
@@ -132,6 +135,7 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
+        </a>
 
         {/*The Weather Dashboard*/}
         <div className="card">
