@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div id="about">
       <img id="jason" alt="picture of Jason Yoo" src={profilePic} />
-      <h1>Hi, I'm Jason!</h1>
+      <h1><span id="nameSpan">Hi, I'm Jason!</span></h1>
       <p>
         My name is Jason Yoo and I am a Front-End Web Developer. I am well
         versed in HTML5, CSS3, Multiple CSS-Frameworks, JavaScript, JQuery,
