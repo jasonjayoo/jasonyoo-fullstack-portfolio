@@ -138,6 +138,7 @@ export default function Portfolio() {
         </a>
 
         {/*The Weather Dashboard*/}
+        <a href="https://jasonjayoo.github.io/The-Weather-Dash/" alt="Weather Dashboard" Title="This is a link to " target="_blank">
         <div className="card">
           <img
             className="card-img-top"
@@ -174,8 +175,10 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
+        </a>
 
         {/*The Coding Quiz*/}
+        <a href="https://jasonjayoo.github.io/my-coding-quiz/" alt="The Coding Quiz" Title="This is a link to " target="_blank">
         <div className="card">
           <img className="card-img-top" src={codeQuiz} alt="The Coding Quiz" />
           <div className="card-body">
@@ -210,6 +213,7 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
+        </a>
 
         {/* Work Day Planner */}
         <div className="card">
