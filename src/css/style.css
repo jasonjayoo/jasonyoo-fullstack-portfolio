@@ -437,15 +437,40 @@ h3 {
   
   }
 
+  p {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+
 @media only screen and (max-width: 1246px) {
   h3 {
     font-size: 29px;
   }
 }
 
+@media only screen and (max-width: 942px) {
+  p {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .mainContact {
+    width: 60%;
+  }
+
+  .input {
+    width: 90%;
+  }
+  p {
+    font-size: 8.5px;
+  }
+}
+
 @media only screen and (max-width: 685px) {
   .mainContact {
-    width: 65%;
+    width: 75%;
   }
 
   .input {
@@ -456,6 +481,10 @@ h3 {
 @media only screen and (max-width: 561px) {
   .input {
     font-size: 13px;
+  }
+
+  p{
+    font-size: 8px;
   }
 }
 
@@ -469,6 +498,12 @@ h3 {
   }
 }
 
+@media only screen and (max-width: 511px){
+  p{
+    font-size: 6.5px
+  }
+}
+
 @media only screen and (max-width: 457px) {
   .input {
     font-size: 11px;
@@ -476,6 +511,10 @@ h3 {
 
   .carousel-caption h5 {
     font-size: 1.25em;
+  }
+
+  p{
+    font-size: 5.5px
   }
 
   h3 {
@@ -493,6 +532,10 @@ h3 {
   .input {
     font-size: 10px;
   }
+
+  p{
+    font-size: 5.5px
+  }
 }
 
 @media only screen and (max-width: 350px) {
@@ -504,14 +547,28 @@ h3 {
     font-size: 12px;
   }
 
+  p{
+    font-size: 5.3px
+  }
+
   .input {
     font-size: 8.5px;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  p{
+    font-size: 5.1px
   }
 }
 
 @media only screen and (max-width: 313px) {
   #tabs .nav-tabs .nav-link {
     font-size: 10px;
+  }
+
+  p{
+    font-size: 5.2px
   }
 
   .copyright h4 {
@@ -523,9 +580,11 @@ h3 {
   #tabs .nav-tabs .nav-link {
     font-size: 10px;
   }
-}
 
-@media only screen and (max-width: 300px) {
+  p{
+    font-size: 4.5px
+  }
+
   .input {
     font-size: 7.5px;
   }

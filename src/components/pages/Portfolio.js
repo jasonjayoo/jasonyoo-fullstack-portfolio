@@ -9,7 +9,7 @@ import workDayPlanner from "../../assets/workdayplanner.png";
 export default function Portfolio() {
   return (
     <div className="page">
-      <h1>Portfolio</h1>
+      <h1>My Portfolio</h1>
       <div className="card-container d-flex flex-row flex-wrap">
         {/* The Cloud Casino */}
         <a
