@@ -210,7 +210,7 @@ const sendEmail = async (content) => {
   return (
     <div>
       <h1>Email Me Directly</h1>
-      <p>(Please complete the form below to send me an email - the submit button will appear once form is filled)</p>
+      <h6 className="contact-p">(Please complete the form below to send me an email - the submit button will appear once form is filled)</h6>
       {/* <form
         // action="mailto:jasonjayoo@outlook.com"
         // method="post"
