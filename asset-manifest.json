@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.8b51c1c7.css",
+    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.44d87611.css",
     "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.fadaae19.js",
     "static/js/937.e7c3993a.chunk.js": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js",
     "static/media/thecloudcasino.png": "/jasonyoo-fullstack-portfolio/static/media/thecloudcasino.5233acdb1f30e29752a7.png",
@@ -24,12 +24,12 @@
     "static/media/techblog.png": "/jasonyoo-fullstack-portfolio/static/media/techblog.380525eab18c3e8435eb.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
-    "main.8b51c1c7.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.8b51c1c7.css.map",
+    "main.44d87611.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.44d87611.css.map",
     "main.fadaae19.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.fadaae19.js.map",
     "937.e7c3993a.chunk.js.map": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b51c1c7.css",
+    "static/css/main.44d87611.css",
     "static/js/main.fadaae19.js"
   ]
 }
