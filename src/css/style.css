@@ -322,8 +322,6 @@ h2 {
     1px 18px 30px rgba(249, 246, 246, 0.4); */
 }
 
-
-
 h3 {
   margin-top: 55px;
   margin-bottom: 40px;
@@ -336,9 +334,9 @@ h3 {
   border: 1px solid black;
   background-color: rgb(19, 16, 16);
   color: #fff;
-  box-shadow: 0px -0px 8px 0px rgba(253,253,253,0.89);
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(253,253,253,0.89);
-  -moz-box-shadow: 0px 0px 8px 0px rgba(253,253,253,0.89);
+  box-shadow: 0px -0px 8px 0px rgba(253, 253, 253, 0.89);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
   /* text-shadow: 4px 4px 2px rgba(0,0,0,0.6); */
   /* text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
     1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
@@ -371,78 +369,78 @@ h3 {
 }
 
 #tabs .hamburger:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid white;
-    animation: hamburger_puls 1s ease infinite;
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  animation: hamburger_puls 1s ease infinite;
 }
 
 #tabs .hamburger .bar {
-    height: 2px;
-    width: 30px;
-    position: relative;
-    background-color: white;
-    z-index: -1;
+  height: 2px;
+  width: 30px;
+  position: relative;
+  background-color: white;
+  z-index: -1;
 }
 
-#tabs .hamburger .bar::after, #tabs .hamburger .bar::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background-color: white;
-    transition: 0.3s ease;
-    transition-property: top, bottom;
+#tabs .hamburger .bar::after,
+#tabs .hamburger .bar::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  background-color: white;
+  transition: 0.3s ease;
+  transition-property: top, bottom;
 }
 
-#tabs .hamburger .bar::after{
-    top: 8px;
+#tabs .hamburger .bar::after {
+  top: 8px;
 }
 
-#tabs .hamburger .bar::before{
-    bottom: 8px;
+#tabs .hamburger .bar::before {
+  bottom: 8px;
 }
 
 #tabs .hamburger.active .bar::before {
-    bottom: 0;
+  bottom: 0;
 }
 
 #tabs .hamburger.active .bar::after {
-    top: 0,
+  top: 0;
 }
 
 @media only screen and (min-width: 1216px) {
-    #tabs .hamburger {
-      display: none;
-    }
-    #tabs #nav-tab ul {
-      position: initial;
-      display: block;
-      height: auto;
-      width: fit-content;
-      background-color: transparent;
-    }
-    #tabs #nav-tab ul li {
-      display: inline-block;
-    }
-    #tabs #nav-tab ul li a {
-      font-size: 1.8rem;
-    }
-    #tabs #nav-tab ul a:after {
-      display: none;
-    }
-  
+  #tabs .hamburger {
+    display: none;
   }
+  #tabs #nav-tab ul {
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent;
+  }
+  #tabs #nav-tab ul li {
+    display: inline-block;
+  }
+  #tabs #nav-tab ul li a {
+    font-size: 1.8rem;
+  }
+  #tabs #nav-tab ul a:after {
+    display: none;
+  }
+}
 
-  .contact-p {
-    text-align: center;
-    color: white;
-    font-size: 10px;
-  }
+.contact-p {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
 
 @media only screen and (max-width: 1246px) {
   h3 {
@@ -484,7 +482,7 @@ h3 {
     font-size: 13px;
   }
 
-  .contact-p{
+  .contact-p {
     font-size: 8px;
   }
 }
@@ -499,9 +497,9 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 511px){
-  .contact-p{
-    font-size: 6.5px
+@media only screen and (max-width: 511px) {
+  .contact-p {
+    font-size: 6.5px;
   }
 }
 
@@ -514,8 +512,8 @@ h3 {
     font-size: 1.25em;
   }
 
-  .contact-p{
-    font-size: 5.5px
+  .contact-p {
+    font-size: 5.5px;
   }
 
   h3 {
@@ -534,8 +532,8 @@ h3 {
     font-size: 10px;
   }
 
-  .contact-p{
-    font-size: 5.5px
+  .contact-p {
+    font-size: 5.5px;
   }
 }
 
@@ -548,8 +546,8 @@ h3 {
     font-size: 12px;
   }
 
-  .contact-p{
-    font-size: 5.3px
+  .contact-p {
+    font-size: 5.3px;
   }
 
   .input {
@@ -558,8 +556,8 @@ h3 {
 }
 
 @media only screen and (max-width: 338px) {
-  .contact-p{
-    font-size: 5.1px
+  .contact-p {
+    font-size: 5.1px;
   }
 }
 
@@ -568,8 +566,8 @@ h3 {
     font-size: 10px;
   }
 
-  .contact-p{
-    font-size: 5.2px
+  .contact-p {
+    font-size: 5.2px;
   }
 
   .copyright h4 {
@@ -582,8 +580,8 @@ h3 {
     font-size: 10px;
   }
 
-  .contact-p{
-    font-size: 4.5px
+  .contact-p {
+    font-size: 4.5px;
   }
 
   .input {
