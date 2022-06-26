@@ -1,5 +1,6 @@
 import React from "react";
 import cloudCasino from "../../assets/thecloudcasino.png";
+import soundify from "../../assets/soundify.png";
 import foodForThought from "../../assets/foodforthought.png";
 import techBlog from "../../assets/techblog.png";
 import weatherDashboard from "../../assets/theweatherdashboard.png";
@@ -10,7 +11,55 @@ export default function Portfolio() {
   return (
     <div className="page">
       <h1>My Portfolio</h1>
+
+      
       <div className="card-container d-flex flex-row flex-wrap">
+        {/* The Cloud Casino */}
+        <a
+          href="https://soundify-home.herokuapp.com/"
+          alt="Soundify Full Stack Web Application"
+          Title="This is a link to "
+          target="_blank"
+        >
+          <div className="card">
+            <img
+              className="card-img-top"
+              src={soundify}
+              alt="Soundify"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Soundify</h5>
+              <p className="card-text">
+                A music application that allows users to freely upload songs to custom playlists.
+                Users may also access songs on the database and add them to their playlists.
+
+              </p>
+              <ul>
+                <li>MongoDB and AWS database implemented</li>
+                <li>Front End created with React</li>
+                <li>Role: Full Stack Developer</li>
+              </ul>
+              <a
+                href="https://soundify-home.herokuapp.com/"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view deployed site!
+              </a>
+              <br />
+              <a
+                href="https://github.com/jasonjayoo/Soundify"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view the GitHub repository!
+              </a>
+            </div>
+          </div>
+        </a>
+
         {/* The Cloud Casino */}
         <a
           href="https://glacial-reef-71102.herokuapp.com/"
