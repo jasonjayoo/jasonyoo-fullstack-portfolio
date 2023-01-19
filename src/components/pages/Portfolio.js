@@ -14,7 +14,7 @@ export default function Portfolio() {
       <div className="card-container d-flex flex-row flex-wrap">
         {/* Soundify */}
         <a
-          href="https://soundify-home.herokuapp.com/"
+          href="https://soundify.live/"
           alt="Soundify Full Stack Web Application"
           Title="This is a link to "
           target="_blank"
@@ -34,7 +34,7 @@ export default function Portfolio() {
                 <li>Role: Full Stack Developer</li>
               </ul>
               <a
-                href="https://soundify-home.herokuapp.com/"
+                href="https://soundify.live/"
                 className="card-link"
                 target="_blank"
                 rel="noreferrer"
