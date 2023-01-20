@@ -39,7 +39,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -85,7 +85,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -136,7 +136,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -178,7 +178,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -225,7 +225,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -272,7 +272,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
@@ -319,7 +319,7 @@ export default function Portfolio() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Click to view deployed site!
+                Click to view live site!
               </a>
               <br />
               <a
