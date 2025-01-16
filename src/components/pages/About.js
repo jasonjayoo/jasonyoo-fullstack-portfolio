@@ -23,9 +23,8 @@ export default function About() {
         California, Irvine. My career history includes experience as a Personal
         Banker with Wells Fargo Bank N.A., I was also an accomplished English
         teacher with the Seoul Metropolitan Office of Education. I am at present
-        a private consultant with a start up company located in Los Angeles,
-        Curien LLC. I graduated with top marks from the coding program at UC
-        Irvine.
+        a Front-End Web Developer for Revolve.com and fashion e-commerce company 
+        based out of Los Angeles, California.
       </p>
       <p>
         I am a motivated and dedicated software developer, with an eagerness to
