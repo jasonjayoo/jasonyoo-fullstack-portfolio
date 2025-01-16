@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.44d87611.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.f27dee50.js",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.807faeab.js",
     "static/js/937.e7c3993a.chunk.js": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js",
     "static/media/thecloudcasino.png": "/jasonyoo-fullstack-portfolio/static/media/thecloudcasino.5233acdb1f30e29752a7.png",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
     "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.107c6a70111152d94814.png",
+    "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.e091d0e651ec5459cf75.pdf",
     "static/media/express.png": "/jasonyoo-fullstack-portfolio/static/media/express.6a3e055a6226b08114ef.png",
-    "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.0d664494d8678ce80629.pdf",
     "static/media/theweatherdashboard.png": "/jasonyoo-fullstack-portfolio/static/media/theweatherdashboard.3a60007872d3122edd53.png",
     "static/media/css3.png": "/jasonyoo-fullstack-portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
     "static/media/workdayplanner.png": "/jasonyoo-fullstack-portfolio/static/media/workdayplanner.8e05e57b7575c26fee35.png",
@@ -25,11 +25,11 @@
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
     "main.44d87611.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.44d87611.css.map",
-    "main.f27dee50.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.f27dee50.js.map",
+    "main.807faeab.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.807faeab.js.map",
     "937.e7c3993a.chunk.js.map": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44d87611.css",
-    "static/js/main.f27dee50.js"
+    "static/js/main.807faeab.js"
   ]
 }
