@@ -105,7 +105,7 @@
 }
 
 #about {
-  margin: 40px 40px 0px 40px;
+  margin: 40px 500px 0;
   color: black;
 }
 
@@ -442,6 +442,11 @@ h3 {
   font-size: 10px;
 }
 
+@media only screen and (max-width: 1500px) {
+  #about {
+    margin: 40px 250px 0;
+  }
+}
 @media only screen and (max-width: 1246px) {
   h3 {
     font-size: 29px;
@@ -464,6 +469,9 @@ h3 {
   }
   .contact-p {
     font-size: 8.5px;
+  }
+  #about {
+    margin: 40px 40px 0;
   }
 }
 

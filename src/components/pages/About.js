@@ -9,29 +9,23 @@ export default function About() {
         <span id="nameSpan">Hi, I'm Jason!</span>
       </h1>
       <p>
-        My name is Jason Yoo and I am a Full-Stack Web Developer. I am well
-        versed in HTML5, CSS3, Multiple CSS-Frameworks, JavaScript, JQuery,
-        Node.js, Express.js, Handlebars.js, MySQL, Sequelize, MongoDB, Mongoose,
-        and React.js. As a web developer, I emphasize a mobile-first web
-        development perspective along with creating responsive web applications
-        which enhance the users experience.
+      My name is Jason Yoo, a skilled Full-Stack Web Developer passionate about crafting high-quality, responsive web applications. 
+      With proficiency in React.js, HTML5, CSS3, JavaScript, Node.js, MySQL, MongoDB, and more, I specialize in mobile-first, 
+      scalable development with a strong emphasis on accessibility optimization. My goal is to deliver intuitive, user-centered 
+      experiences that perform seamlessly across all devices.
       </p>
       <p>
-        I graduated from the California State University of Fullerton with a
-        B.A. in History with a minor in Asian American Studies. I also completed
-        the Full-Stack Web Development Program through the University of
-        California, Irvine. My career history includes experience as a Personal
-        Banker with Wells Fargo Bank N.A., I was also an accomplished English
-        teacher with the Seoul Metropolitan Office of Education. I am at present
-        a Front-End Web Developer for Revolve.com and fashion e-commerce company 
-        based out of Los Angeles, California.
+      I hold a B.A. in History with a minor in Asian American Studies from California State University, Fullerton, 
+      and completed the Full-Stack Web Development Program at the University of California, Irvine. My diverse 
+      professional background includes roles as a Personal Banker at Wells Fargo Bank N.A. and as an English teacher 
+      with the Seoul Metropolitan Office of Education. Currently, I work as a Front-End Web Developer at Revolve, 
+      a leading fashion e-commerce company in Los Angeles, California.
       </p>
       <p>
-        I am a motivated and dedicated software developer, with an eagerness to
-        continuing expanding my learning and growth as a web developer.
-        Leveraging my previous experiences in banking, teaching and consulting
-        with my now honed web development skills, I am excited to be a part of a
-        fast-paced, quality driven web development team.
+      I am a motivated and adaptable developer, eager to continuously grow my expertise in web development. 
+      By integrating my background in banking, education, and consulting with my technical skills, 
+      I excel at problem-solving and collaborating in dynamic, fast-paced environments. I am excited 
+      to bring my unique perspective and dedication to a forward-thinking development team focused on innovation and quality.
       </p>
     </div>
   );
