@@ -22,7 +22,7 @@ export default function About() {
       a leading fashion e-commerce company in Los Angeles, California.
       </p>
       <p>
-      I am a motivated and adaptable developer, eager to continuously grow my expertise in web development. 
+      I am a motivated and adaptable web developer, eager to continuously grow my expertise in web development. 
       By integrating my background in banking, education, and consulting with my technical skills, 
       I excel at problem-solving and collaborating in dynamic, fast-paced environments. I am excited 
       to bring my unique perspective and dedication to a forward-thinking development team focused on innovation and quality.
