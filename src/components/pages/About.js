@@ -9,9 +9,9 @@ export default function About() {
         <span id="nameSpan">Hi, I'm Jason!</span>
       </h1>
       <p>
-      My name is Jason Yoo, a skilled Full-Stack Web Developer passionate about crafting high-quality, responsive web applications. 
-      With proficiency in React.js, HTML5, CSS3, JavaScript, Node.js, MySQL, MongoDB, and more, I specialize in mobile-first, 
-      scalable development with a strong emphasis on accessibility optimization. My goal is to deliver intuitive, user-centered 
+      My name is Jason Yoo, an experienced Web Developer passionate about crafting high-quality, responsive web applications. 
+      With proficiency in React.js, JavaScript, jQuery, HTML5, CSS3, Node.js, MySQL, MongoDB, and more, I specialize in mobile-first, 
+      scalable development with a strong emphasis on SEO optimization (CLS FCP LCP). My goal is to deliver intuitive, user-centered 
       experiences that perform seamlessly across all devices.
       </p>
       <p>
