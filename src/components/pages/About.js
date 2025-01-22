@@ -17,10 +17,10 @@ export default function About() {
       </p>
       <p>
       I hold a B.A. in History with a minor in Asian American Studies from California State University, Fullerton, 
-      and completed the Full-Stack Web Development Program at the University of California, Irvine. My diverse 
-      professional background includes roles as a Personal Banker at Wells Fargo Bank N.A. and as an English teacher 
-      with the Seoul Metropolitan Office of Education. Currently, I work as a Front-End Web Developer at Revolve, 
-      a leading fashion e-commerce company in Los Angeles, California.
+      and completed the Full-Stack Web Development Program at the University of California, Irvine. My career 
+      journey spans various roles, including Personal Banker at Wells Fargo Bank N.A., English Teacher with the 
+      Seoul Metropolitan Office of Education, and Web Development Consultant at Curien LLC. Currently, I am a 
+      Front-End Web Developer at Revolve, a leading fashion e-commerce company based in Los Angeles, California.
       </p>
       <p>
       I am a motivated and adaptable web developer, eager to continuously grow my expertise in web development. 
