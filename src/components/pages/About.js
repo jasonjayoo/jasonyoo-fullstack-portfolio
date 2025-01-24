@@ -4,30 +4,51 @@ import profilePic from "../../assets/mypicture.jpg";
 export default function About() {
   return (
     <div id="about">
-      <img id="jason" alt="picture of Jason Yoo" src={profilePic} />
-      <h1>
-        <span id="nameSpan">Hi, I'm Jason!</span>
+      <img id="jason" alt="Picture of Jason Yoo" src={profilePic} />
+      <h1 className="u-border-b u-padding-b--xxl">
+        <span className="main-title">Hi, I'm Jason</span>
+        <br/>
+        <span className="main-title">Professional Web Developer</span>
       </h1>
-      <p>
-      My name is Jason Yoo, a skilled and experienced Full-Stack Web Developer with a passion for creating high-quality, 
-      responsive, and user-centered web applications. I specialize in mobile-first, scalable development and have extensive 
-      expertise in modern technologies, including React.js, JavaScript, jQuery, HTML5, CSS3, Node.js, MySQL, MongoDB, 
-      and more. With a strong focus on performance optimization (CLS, FCP, LCP) and SEO best practices, I strive to deliver 
-      seamless, intuitive experiences that meet the needs of users and perform flawlessly across all devices.
-      </p>
-      <p>
-      I hold a B.A. in History with a minor in Asian American Studies from California State University, Fullerton, 
-      and completed the Full-Stack Web Development Program at the University of California, Irvine. My career 
-      journey spans various roles, including Personal Banker at Wells Fargo Bank N.A., English Teacher with the 
-      Seoul Metropolitan Office of Education, and Web Development Consultant at Curien LLC. Currently, I am a 
-      Front-End Web Developer at Revolve, a leading fashion e-commerce company based in Los Angeles, California.
-      </p>
-      <p>
-      I am a motivated and adaptable web developer, eager to continuously grow my expertise in web development. 
-      By integrating my background in banking, education, and consulting with my technical skills, 
-      I excel at problem-solving and collaborating in dynamic, fast-paced environments. I am excited 
-      to bring my unique perspective and dedication to a forward-thinking development team focused on innovation and quality.
-      </p>
+
+      <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
+        <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">About Me</h2>
+        <p className="u-padding-t--none">
+          I am a Full-Stack Web Developer with over 5 years of experience in creating high-quality, responsive, and user-focused web applications. 
+          My expertise lies in mobile-first, scalable development using technologies like React.js, Tailwind CSS, JavaScript, jQuery, Node.js, MySQL, and MongoDB. 
+          I am passionate about delivering seamless and intuitive user experiences, with a strong focus on performance optimization (CLS, FCP, LCP) and SEO best practices.
+        </p>
+      </section>
+      
+      <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
+        <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">Professional Experience</h2>
+        <p className="u-padding-t--none">
+          Currently, I am a Front-End Web Developer at Revolve, a leading fashion e-commerce company, where I design and develop scalable, 
+          impactful web solutions. My work includes creating email marketing templates, landing pages, and collaborating with cross-functional 
+          teams to drive revenue and enhance digital content. My diverse career background also includes roles in banking, education, and consulting, 
+          which have shaped my unique problem-solving approach.
+        </p>
+      </section>
+      
+      <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
+        <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">Education & Skills</h2>
+        <p className="u-padding-t--none">
+          I hold a B.A. in History with a minor in Asian American Studies from California State University, Fullerton, and completed the 
+          Full-Stack Web Development Program at the University of California, Irvine. My technical skill set includes React.js, Tailwind CSS, 
+          JavaScript, Node.js, MySQL, MongoDB, performance optimization, and SEO best practices. I am committed to continuous growth and 
+          staying at the forefront of web development innovations.
+        </p>
+      </section>
+      
+      <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
+        <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">Career Goals</h2>
+        <p className="u-padding-t--none">
+          I am motivated to contribute to forward-thinking, innovative teams that value collaboration, quality, and cutting-edge technology. 
+          With a commitment to professional excellence, I aim to deliver impactful web solutions that align with business goals and provide exceptional user experiences.
+        </p>
+      </section>
     </div>
+
+
   );
 }

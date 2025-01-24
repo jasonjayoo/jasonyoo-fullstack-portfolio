@@ -1,129 +1,9 @@
 import { send, init } from "emailjs-com";
 import React, { useState } from "react";
 
-const serviceId = "service_8d6kpkl";
+const serviceId = "service_vk57xcw";
 const templateId = "template_v1424ar";
 const userId = "1kNKti1lRioOck_TH";
-
-// export default function Contact() {
-
-//   const sendEmail = async (content) => {
-//     init(userId)
-
-//     const toSend = {
-//         from_name: content.from_name,
-//         to_email: "jasonjayoo@outlook.com",
-//         from_email: content.from_email,
-//         message: content.message,
-//     }
-
-//     await send(serviceId, templateId, toSend)
-// }
-
-//   const [validated, setValidated] = useState(true);
-//   const [validName, setValidName] = useState(false);
-//   const [validMessage, setValidMessage] = useState(false);
-
-//   function validateEmail(event) {
-//     const email = event.target.value;
-//     let regex = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}/i;
-//     if (regex.test(email)) {
-//       console.log(true);
-//       setValidated(true);
-//       return;
-//     }
-//     setValidated(false);
-//   }
-
-//   const [fullName, setName] = useState("");
-
-//   function validateFormFields(event){
-
-//     const {name, value} = event.target
-//     setName(event.target.name);
-
-//     if(name==="Name") {
-//       if(value.length > 0){
-//         setValidName(true);
-//       } else {
-//         setValidName(false);
-//       }
-//     }
-
-//     if(name==="Message") {
-//       if(value.length > 0){
-//         setValidMessage(true);
-//       } else {
-//         setValidMessage(false);
-//       }
-//     }
-//   }
-
-//   return (
-//     <div>
-//       <div className="container">
-//         <form onSubmit={sendEmail}>
-//           <div className="row pt-5 mx-auto">
-//             <div className="col-8 form-group mx-auto">
-//               <input
-//                 type="text"
-//                 className="form-control"
-//                 placeholder="Name"
-//                 name="name"
-//                 onChange={validateFormFields}
-//               />
-//             </div>
-
-//             <div className="col-8 form-group pt-2 mx-auto">
-//               <input
-//                 type="email"
-//                 className="form-control"
-//                 placeholder="Email Address"
-//                 name="email"
-//                 onChange={validateEmail}
-//               />
-//             </div>
-
-//             <div className="col-8 form-group pt-2 mx-auto">
-//               <input
-//                 type="text"
-//                 className="form-control"
-//                 placeholder="Subject"
-//                 name="subject"
-//               />
-//             </div>
-
-//             <div className="col-8 form-group pt-2 mx-auto">
-//               <textarea
-//                 className="form-control"
-//                 id=""
-//                 cols="30"
-//                 rows="8"
-//                 placeholder="Your message"
-//                 name="message"
-//                 onChange={validateFormFields}
-//               ></textarea>
-//             </div>
-
-//             <div className="col-8 pt-3 mx-auto">
-//               <input
-//                 onClick={() => {sendEmail(fullName)}}
-//                 type="submit"
-//                 style={{"display": (validName&&validMessage&&validated) ? "block":"none"}}
-//                 className="btn btn-info"
-//                 value="Send Message"
-//               ></input>
-//             </div>
-//           </div>
-//         </form>
-//       </div>
-//     </div>
-//   );
-// }
-
-// ********************************* Working Below *********************************************//
-
-// import React, { useState } from "react";
 
 function Contact() {
   const [validated, setValidated] = useState(true);
@@ -135,7 +15,7 @@ function Contact() {
 
     const toSend = {
       from_name: content.from_name,
-      to_email: "jasonjyoo1988@gmail.com",
+      to_email: "jasonjayoo@outlook.com",
       from_email: content.from_email,
       message: content.message,
     };
@@ -202,8 +82,9 @@ function Contact() {
     <div>
       <h1>Email Me Directly</h1>
       <h6 className="contact-p">
-        (Please complete the form below to send me an email - the submit button
-        will appear once form is filled)
+        <span>Please complete the form below to send me an email</span>
+        <br/>
+        <span>(the submit button will appear once form is filled)</span>
       </h6>
       {/* <form
         // action="mailto:jasonjayoo@outlook.com"

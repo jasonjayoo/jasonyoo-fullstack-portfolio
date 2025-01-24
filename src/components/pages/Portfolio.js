@@ -1,40 +1,40 @@
 import React from "react";
-import cloudCasino from "../../assets/thecloudcasino.png";
-import soundify from "../../assets/soundify.png";
+// import cloudCasino from "../../assets/thecloudcasino.png";
+// import soundify from "../../assets/soundify.png";
 import foodForThought from "../../assets/foodforthought.png";
 import techBlog from "../../assets/techblog.png";
 import weatherDashboard from "../../assets/theweatherdashboard.png";
 import codeQuiz from "../../assets/codequiz.png";
 import workDayPlanner from "../../assets/workdayplanner.png";
+import taskTracker from "../../assets/tasktracker.png";
 
 export default function Portfolio() {
   return (
     <div className="page">
-      <h1>My Portfolio</h1>
+      <h1><span className="u-border-b--lg">My Portfolio</span></h1>
       <div className="card-container d-flex flex-row flex-wrap">
-        {/* Soundify */}
+        {/* Task Tracker */}
         <a
-          href="https://soundify.live/"
-          alt="Soundify Full Stack Web Application"
-          Title="This is a link to "
+          href="https://jasonjayoo.github.io/react-miniproject/"
+          alt="React Task Tracker Application"
+          Title="This is a link to my react task tracker"
           target="_blank"
         >
           <div className="card">
-            <img className="card-img-top" src={soundify} alt="Soundify" />
+            <img className="card-img-top" src={taskTracker} alt="Task Tracker" />
             <div className="card-body">
-              <h5 className="card-title">Soundify</h5>
+              <h5 className="card-title">Task Tracker</h5>
               <p className="card-text">
-                A music application that allows users to freely upload songs to
-                custom playlists. Users may also access songs on the database
-                and add them to their playlists.
+                A react built application to track your daily tasks. Track your daily tasks - 
+                select the set reminder to activate the reminder.
               </p>
               <ul>
-                <li>MongoDB and AWS database implemented</li>
-                <li>Front End created with React</li>
-                <li>Role: Full Stack Developer</li>
+                <li>React date-picker and dayjs implemented</li>
+                <li>A Website created with React | Date Picker | Dayjs</li>
+                <li>Role: Lead Web Developer</li>
               </ul>
               <a
-                href="https://soundify.live/"
+                href="https://jasonjayoo.github.io/react-miniproject/"
                 className="card-link"
                 target="_blank"
                 rel="noreferrer"
@@ -43,8 +43,8 @@ export default function Portfolio() {
               </a>
               <br />
               <a
-                href="https://github.com/jasonjayoo/Soundify"
-                className="card-link"
+                href="https://github.com/jasonjayoo/react-miniproject"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -54,8 +54,8 @@ export default function Portfolio() {
           </div>
         </a>
 
-        {/* The Cloud Casino */}
-        <a
+        {/* Susan's Alterations */}
+        {/* <a
           href="https://glacial-reef-71102.herokuapp.com/"
           alt="The Cloud Casino Full Stack Web Application"
           Title="This is a link to "
@@ -90,7 +90,7 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/The-Cloud-Casino"
-                className="card-link"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -98,7 +98,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </a>
+        </a> */}
 
         {/* Food For Thought*/}
         <a
@@ -141,7 +141,7 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/Food-For-Thought"
-                className="card-link"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -151,49 +151,7 @@ export default function Portfolio() {
           </div>
         </a>
 
-        {/*The Tech Blog*/}
-        <a
-          href="https://quiet-journey-86661.herokuapp.com/"
-          alt="The Tech Blog"
-          Title="This is a link to "
-          target="_blank"
-        >
-          <div className="card">
-            <img className="card-img-top" src={techBlog} alt="The Tech Blog" />
-            <div className="card-body">
-              <h5 className="card-title">Tech Blog</h5>
-              <p className="card-text">
-                The Tech Blog is a CMS-style blog site similar to a Wordpress
-                web application. Developers can publish blog posts and comment
-                on other developers' posts.
-              </p>
-              <ul>
-                <li>MySQL database with sequelize queries</li>
-                <li>User authentication with bcrypt</li>
-                <li>Role: Sole developer</li>
-              </ul>
-              <a
-                href="https://quiet-journey-86661.herokuapp.com/"
-                className="card-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view live site!
-              </a>
-              <br />
-              <a
-                href="https://github.com/jasonjayoo/The-Tech-Blog"
-                className="card-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view the GitHub repository!
-              </a>
-            </div>
-          </div>
-        </a>
-
-        {/*The Weather Dashboard*/}
+      {/*The Weather Dashboard*/}
         <a
           href="https://jasonjayoo.github.io/The-Weather-Dash/"
           alt="Weather Dashboard"
@@ -230,7 +188,50 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/The-Weather-Dash"
+                className="card-link u-font--md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view the GitHub repository!
+              </a>
+            </div>
+          </div>
+        </a>
+
+
+        {/*The Tech Blog*/}
+        <a
+          href="https://quiet-journey-86661.herokuapp.com/"
+          alt="The Tech Blog"
+          Title="This is a link to "
+          target="_blank"
+        >
+          <div className="card">
+            <img className="card-img-top" src={techBlog} alt="The Tech Blog" />
+            <div className="card-body">
+              <h5 className="card-title">Tech Blog</h5>
+              <p className="card-text">
+                The Tech Blog is a CMS-style blog site similar to a Wordpress
+                web application. Developers can publish blog posts and comment
+                on other developers' posts.
+              </p>
+              <ul>
+                <li>MySQL database with sequelize queries</li>
+                <li>User authentication with bcrypt</li>
+                <li>Role: Sole developer</li>
+              </ul>
+              <a
+                href="https://quiet-journey-86661.herokuapp.com/"
                 className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view live site!
+              </a>
+              <br />
+              <a
+                href="https://github.com/jasonjayoo/The-Tech-Blog"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -277,7 +278,7 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/my-coding-quiz"
-                className="card-link"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -324,7 +325,7 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/The-Work-Day-Planner"
-                className="card-link"
+                className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
               >

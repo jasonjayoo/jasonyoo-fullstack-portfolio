@@ -1,23 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 :root {
   --border-color: black;
   --shadow-color: rgba(27, 26, 26, 0.4);
 }
 
+body {
+  font-family: 'Poppins', sans-serif, Arial;
+}
+
 .card-container {
   justify-content: center;
+  margin: 0 280px;
 }
 
 .card {
   width: 300px;
+  height: 522px;
   margin-left: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 1em;
   transition: 0.25s;
   border-style: solid;
+  border: 1px solid #fff;
   color: white;
   border-width: 2px;
   background-color: transparent;
+}
+
+.card-body > ul > li {
+  font-size: 12px;
 }
 
 .card-img-top {
@@ -36,12 +49,24 @@
   background-color: white;
 }
 
+.card:hover .card-link {
+  color: #191970;
+}
+
 .card-link {
   color: rgb(16, 218, 12);
 }
 
 .card-link:hover {
   color: blue;
+}
+
+.card-title {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
 }
 
 .logolinks {
@@ -86,7 +111,7 @@
 }
 
 .contact:hover {
-  color: black;
+  color: rgb(80 218 181);
   filter: opacity(1);
   text-decoration: none;
 }
@@ -110,7 +135,6 @@
 }
 
 #about p {
-  padding-top: 10px;
   text-align: center;
   color: whitesmoke;
   animation: text_reveal 2.2s ease forwards;
@@ -130,10 +154,55 @@ a {
 h1 {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Poppins', sans-serif, Arial;
+  font-weight: 1000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px rgba(16, 16, 16, 0.4), 1px 10px 5px rgba(16, 16, 16, 0.2),
+    1px 12px 15px rgba(16, 16, 16, 0.2), 1px 18px 30px rgba(16, 16, 16, 0.4);
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif, Arial;
+  font-weight: 1000;
+  padding-bottom: 35px;
+  color: rgb(238, 248, 248);
+  /* text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px rgba(249, 246, 246, 0.4), 1px 10px 5px rgba(249, 246, 246, 0.4),
+    1px 12px 15px rgba(249, 246, 246, 0.4),
+    1px 18px 30px rgba(249, 246, 246, 0.4); */
 }
 
 h3 {
+  font-family: 'Poppins', sans-serif, Arial;
+  font-size: 29px;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   text-align: center;
+  font-weight: 1000;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: rgb(19, 16, 16);
+  color: #fff;
+  box-shadow: 0px -0px 8px 0px rgba(253, 253, 253, 0.89);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
+  /* text-shadow: 4px 4px 2px rgba(0,0,0,0.6); */
+  /* text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
+    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
+    1px 6px 3px rgba(16, 16, 16, 0.4), 1px 10px 5px rgba(16, 16, 16, 0.2),
+    1px 12px 15px rgba(16, 16, 16, 0.2), 1px 18px 30px rgba(16, 16, 16, 0.4); */
+}
+
+.main-title {
+  animation: 3s slideDown;
+  font-size: 28px;
 }
 
 .logo {
@@ -275,28 +344,13 @@ section .section-title {
   margin-bottom: 5px;
   font-size: 1.75em;
   font-weight: 500;
-  color: rgb(3, 250, 250);
+  color: rgb(233 174 39);
   text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
     1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
     1px 6px 3px #fff(16, 16, 16, 0.4), 1px 10px 5px #fff(16, 16, 16, 0.2),
     1px 12px 15px #fff(16, 16, 16, 0.2), 1px 18px 30px #fff(16, 16, 16, 0.4);
 }
 
-#nameSpan {
-  animation: 3s slideDown;
-}
-
-h1 {
-  font-family: Garamond, Tahoma, sans-serif;
-  font-weight: 1000;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #fff;
-  text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
-    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
-    1px 6px 3px rgba(16, 16, 16, 0.4), 1px 10px 5px rgba(16, 16, 16, 0.2),
-    1px 12px 15px rgba(16, 16, 16, 0.2), 1px 18px 30px rgba(16, 16, 16, 0.4);
-}
 
 @keyframes slideDown {
   0% {
@@ -310,46 +364,42 @@ h1 {
     } */
 }
 
-h2 {
-  font-family: Garamond, Tahoma, sans-serif;
-  font-weight: 1000;
-  padding-bottom: 35px;
-  color: rgb(238, 248, 248);
-  /* text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
-    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
-    1px 6px 3px rgba(249, 246, 246, 0.4), 1px 10px 5px rgba(249, 246, 246, 0.4),
-    1px 12px 15px rgba(249, 246, 246, 0.4),
-    1px 18px 30px rgba(249, 246, 246, 0.4); */
-}
-
-h3 {
-  margin-top: 55px;
-  margin-bottom: 40px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  font-family: Garamond, Tahoma, sans-serif;
-  font-size: 29px;
-  font-weight: 1000;
-  border-radius: 15px;
-  border: 1px solid black;
-  background-color: rgb(19, 16, 16);
-  color: #fff;
-  box-shadow: 0px -0px 8px 0px rgba(253, 253, 253, 0.89);
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
-  -moz-box-shadow: 0px 0px 8px 0px rgba(253, 253, 253, 0.89);
-  /* text-shadow: 4px 4px 2px rgba(0,0,0,0.6); */
-  /* text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
-    1px 4px 1px #020706, 1px 5px 1px #020706, 1px 6px 1px #020706,
-    1px 6px 3px rgba(16, 16, 16, 0.4), 1px 10px 5px rgba(16, 16, 16, 0.2),
-    1px 12px 15px rgba(16, 16, 16, 0.2), 1px 18px 30px rgba(16, 16, 16, 0.4); */
-}
-
-.resumeBtn {
+/* .resumeBtn {
   margin: 0 auto;
   background: linear-gradient(217deg, #575353, #292c2c);
-  /* background-color: rgb(10, 237, 245); */
   border-radius: 15px;
   width: 265px;
+} */
+
+.resumeBtn {
+  margin: 50px auto 38px;
+  background: linear-gradient(135deg, #4e5d73, #1e2b47); /* Softer gradients */
+  border-radius: 15px;
+  width: 265px;
+  border: 0.5px solid #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transitions */
+}
+
+.resumeBtn:hover {
+  transform: translateY(3px); /* Subtle "lift" effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.resumeBtn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff; /* Ensure text contrast on the dark blue background */
+  font-family: 'Arial', sans-serif; /* Use a clean, professional font */
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.resumeBtn a:hover {
+  color: #f0f0f0; /* Slightly lighter text on hover */
 }
 
 #tabs .hamburger {
@@ -439,12 +489,16 @@ h3 {
 .contact-p {
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 16px;
+  margin-bottom: 14px;
 }
 
 @media only screen and (max-width: 1500px) {
   #about {
-    margin: 40px 250px 0;
+    margin: 40px 202px 0;
+  }
+  .card-container {
+    margin: 0 52px;
   }
 }
 @media only screen and (max-width: 1246px) {
@@ -453,9 +507,9 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 942px) {
+@media only screen and (max-width: 970px) {
   .contact-p {
-    font-size: 9px;
+    font-size: 14px;
   }
 }
 
@@ -467,9 +521,6 @@ h3 {
   .input {
     width: 90%;
   }
-  .contact-p {
-    font-size: 8.5px;
-  }
   #about {
     margin: 40px 40px 0;
   }
@@ -477,7 +528,7 @@ h3 {
 
 @media only screen and (max-width: 685px) {
   .mainContact {
-    width: 75%;
+    width: 80%;
   }
 
   .input {
@@ -488,10 +539,6 @@ h3 {
 @media only screen and (max-width: 561px) {
   .input {
     font-size: 13px;
-  }
-
-  .contact-p {
-    font-size: 8px;
   }
 }
 
@@ -505,27 +552,18 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 511px) {
-  .contact-p {
-    font-size: 6.5px;
-  }
-}
-
 @media only screen and (max-width: 457px) {
   .input {
     font-size: 11px;
   }
-
   .carousel-caption h5 {
     font-size: 1.25em;
   }
-
-  .contact-p {
-    font-size: 5.5px;
-  }
-
   h3 {
     font-size: 28px;
+  }
+  .contact-p {
+    font-size: 12px;
   }
 }
 
@@ -539,10 +577,6 @@ h3 {
   .input {
     font-size: 10px;
   }
-
-  .contact-p {
-    font-size: 5.5px;
-  }
 }
 
 @media only screen and (max-width: 350px) {
@@ -554,20 +588,11 @@ h3 {
     font-size: 12px;
   }
 
-  .contact-p {
-    font-size: 5.3px;
-  }
-
   .input {
     font-size: 8.5px;
   }
 }
 
-@media only screen and (max-width: 338px) {
-  .contact-p {
-    font-size: 5.1px;
-  }
-}
 
 @media only screen and (max-width: 313px) {
   #tabs .nav-tabs .nav-link {
@@ -575,7 +600,7 @@ h3 {
   }
 
   .contact-p {
-    font-size: 5.2px;
+    font-size: 6px;
   }
 
   .copyright h4 {

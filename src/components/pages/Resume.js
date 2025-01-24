@@ -24,7 +24,7 @@ export default function Resume() {
           download="Jason Yoo's Resume"
           target="blank"
         >
-          <h3>Download Resume</h3>
+          <span>Download Resume</span>
         </a>
       </div>
       <div className="container skills-container">
