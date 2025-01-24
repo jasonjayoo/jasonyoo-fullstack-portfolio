@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.2237cf7e.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.c7869202.js",
+    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.60cebf71.css",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.2bcc1e94.js",
     "static/js/937.e7c3993a.chunk.js": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js",
-    "static/media/thecloudcasino.png": "/jasonyoo-fullstack-portfolio/static/media/thecloudcasino.5233acdb1f30e29752a7.png",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
-    "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.107c6a70111152d94814.png",
     "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.5c92f8cf764a8c7d24a0.pdf",
     "static/media/express.png": "/jasonyoo-fullstack-portfolio/static/media/express.6a3e055a6226b08114ef.png",
+    "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.c003b68c00d13941f566.png",
     "static/media/theweatherdashboard.png": "/jasonyoo-fullstack-portfolio/static/media/theweatherdashboard.3a60007872d3122edd53.png",
     "static/media/css3.png": "/jasonyoo-fullstack-portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
     "static/media/workdayplanner.png": "/jasonyoo-fullstack-portfolio/static/media/workdayplanner.8e05e57b7575c26fee35.png",
     "static/media/node.png": "/jasonyoo-fullstack-portfolio/static/media/node.da703b29096826d23e8d.png",
-    "static/media/soundify.png": "/jasonyoo-fullstack-portfolio/static/media/soundify.81a4920d3075f7c5df0c.png",
     "static/media/mongoose.png": "/jasonyoo-fullstack-portfolio/static/media/mongoose.d7449f046ea0ee2350b5.png",
+    "static/media/tasktracker.png": "/jasonyoo-fullstack-portfolio/static/media/tasktracker.2e16c865d2731f7121d8.png",
     "static/media/bootstrap-logo.png": "/jasonyoo-fullstack-portfolio/static/media/bootstrap-logo.3c4e1a5d3a149087b144.png",
     "static/media/react.png": "/jasonyoo-fullstack-portfolio/static/media/react.11c8a26d6ad307c6c881.png",
     "static/media/mongodb.png": "/jasonyoo-fullstack-portfolio/static/media/mongodb.f1483af0b3d58d662686.png",
@@ -24,12 +23,12 @@
     "static/media/techblog.png": "/jasonyoo-fullstack-portfolio/static/media/techblog.380525eab18c3e8435eb.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
-    "main.2237cf7e.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.2237cf7e.css.map",
-    "main.c7869202.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.c7869202.js.map",
+    "main.60cebf71.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.60cebf71.css.map",
+    "main.2bcc1e94.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.2bcc1e94.js.map",
     "937.e7c3993a.chunk.js.map": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2237cf7e.css",
-    "static/js/main.c7869202.js"
+    "static/css/main.60cebf71.css",
+    "static/js/main.2bcc1e94.js"
   ]
 }
