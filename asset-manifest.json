@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.335b7949.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.038a8121.js",
+    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.c2e57f0e.css",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.ccb7fdad.js",
     "static/js/937.e7c3993a.chunk.js": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
     "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.5c92f8cf764a8c7d24a0.pdf",
@@ -23,12 +23,12 @@
     "static/media/techblog.png": "/jasonyoo-fullstack-portfolio/static/media/techblog.380525eab18c3e8435eb.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
-    "main.335b7949.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.335b7949.css.map",
-    "main.038a8121.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.038a8121.js.map",
+    "main.c2e57f0e.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.c2e57f0e.css.map",
+    "main.ccb7fdad.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.ccb7fdad.js.map",
     "937.e7c3993a.chunk.js.map": "/jasonyoo-fullstack-portfolio/static/js/937.e7c3993a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.335b7949.css",
-    "static/js/main.038a8121.js"
+    "static/css/main.c2e57f0e.css",
+    "static/js/main.ccb7fdad.js"
   ]
 }
