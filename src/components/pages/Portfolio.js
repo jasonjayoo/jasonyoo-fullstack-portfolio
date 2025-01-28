@@ -14,92 +14,6 @@ export default function Portfolio() {
     <div className="page">
       <h1><span className="u-border-b--lg">My Portfolio</span></h1>
       <div className="card-container d-flex flex-row flex-wrap">
-        {/* Task Tracker */}
-        <a
-          href="https://jasonjayoo.github.io/react-miniproject/"
-          alt="React Task Tracker Application"
-          Title="This is a link to my react task tracker"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="card">
-            <img className="card-img-top" src={taskTracker} alt="Task Tracker" />
-            <div className="card-body">
-              <h5 className="card-title">Task Tracker</h5>
-              <p className="card-text">
-                A react built application to track your daily tasks. Track your daily tasks - 
-                select the set reminder to activate the reminder.
-              </p>
-              <ul>
-                <li>React date-picker and dayjs implemented</li>
-                <li>A Website created with React | Date Picker | Dayjs</li>
-                <li>Role: Lead Web Developer</li>
-              </ul>
-              <a
-                href="https://jasonjayoo.github.io/react-miniproject/"
-                className="card-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view live site!
-              </a>
-              <br />
-              <a
-                href="https://github.com/jasonjayoo/react-miniproject"
-                className="card-link u-font--md"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view the GitHub repository!
-              </a>
-            </div>
-          </div>
-        </a>
-
-        {/* Susan's Alterations */}
-        <a
-          href="https://bit.ly/susansalterations"
-          alt="Susans Alterations"
-          Title="This is a link to"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="card">
-            <img
-              className="card-img-top"
-              src={susansAlterations}
-              alt="Susans Alterations"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Susans Alterations</h5>
-              <p className="card-text">
-                This application was created for customer searching for
-                tailoring and alterations services.
-              </p>
-              <ul>
-                <li>Built with React.js</li>
-                <li>Role: Web Developer</li>
-              </ul>
-              <a
-                href="https://bit.ly/susansalterations"
-                className="card-link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view live site!
-              </a>
-              <br />
-              <a
-                href="https://github.com/jasonjayoo/susans-alterations-site"
-                className="card-link u-font--md"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Click to view the GitHub repository!
-              </a>
-            </div>
-          </div>
-        </a>
 
         {/* Food For Thought*/}
         <a
@@ -143,6 +57,94 @@ export default function Portfolio() {
               <br />
               <a
                 href="https://github.com/jasonjayoo/Food-For-Thought"
+                className="card-link u-font--md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view the GitHub repository!
+              </a>
+            </div>
+          </div>
+        </a>
+
+                {/* Susan's Alterations */}
+                <a
+          href="https://bit.ly/susansalterations"
+          alt="Susans Alterations"
+          Title="This is a link to"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card">
+            <img
+              className="card-img-top"
+              src={susansAlterations}
+              alt="Susans Alterations"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Susans Alterations</h5>
+              <p className="card-text">
+                This application was created for customer searching for
+                tailoring and alterations services.
+              </p>
+              <ul>
+                <li>Built with React.js</li>
+                <li>Role: Web Developer</li>
+              </ul>
+              <a
+                href="https://bit.ly/susansalterations"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view live site!
+              </a>
+              <br />
+              <a
+                href="https://github.com/jasonjayoo/susans-alterations-site"
+                className="card-link u-font--md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view the GitHub repository!
+              </a>
+            </div>
+          </div>
+        </a>
+
+
+        {/* Task Tracker */}
+        <a
+          href="https://jasonjayoo.github.io/react-miniproject/"
+          alt="React Task Tracker Application"
+          Title="This is a link to my react task tracker"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card">
+            <img className="card-img-top" src={taskTracker} alt="Task Tracker" />
+            <div className="card-body">
+              <h5 className="card-title">Task Tracker</h5>
+              <p className="card-text">
+                A react built application to track your daily tasks. Track your daily tasks - 
+                select the set reminder to activate the reminder.
+              </p>
+              <ul>
+                <li>React date-picker and dayjs implemented</li>
+                <li>A Website created with React | Date Picker | Dayjs</li>
+                <li>Role: Lead Web Developer</li>
+              </ul>
+              <a
+                href="https://jasonjayoo.github.io/react-miniproject/"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view live site!
+              </a>
+              <br />
+              <a
+                href="https://github.com/jasonjayoo/react-miniproject"
                 className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
