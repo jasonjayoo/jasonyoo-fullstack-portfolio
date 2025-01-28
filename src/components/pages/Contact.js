@@ -80,7 +80,9 @@ function Contact() {
 
   return (
     <div>
-      <h1>Email Me Directly</h1>
+      <h1>
+        <span className="u-border-b--lg">Email Me Directly</span>
+      </h1>
       <h6 className="contact-p">
         <span>Please complete the form below to send me an email</span>
         <br/>

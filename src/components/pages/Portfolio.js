@@ -19,6 +19,7 @@ export default function Portfolio() {
           alt="React Task Tracker Application"
           Title="This is a link to my react task tracker"
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img className="card-img-top" src={taskTracker} alt="Task Tracker" />
@@ -106,6 +107,7 @@ export default function Portfolio() {
           alt="Food For Thought Web Application"
           Title="This is a link to "
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img
@@ -157,6 +159,7 @@ export default function Portfolio() {
           alt="Weather Dashboard"
           Title="This is a link to "
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img
@@ -205,6 +208,7 @@ export default function Portfolio() {
           alt="The Tech Blog"
           Title="This is a link to "
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img className="card-img-top" src={techBlog} alt="The Tech Blog" />
@@ -247,6 +251,7 @@ export default function Portfolio() {
           alt="The Coding Quiz"
           Title="This is a link to "
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img
@@ -294,6 +299,7 @@ export default function Portfolio() {
           alt="Work Day Planner"
           Title="This is a link to "
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img

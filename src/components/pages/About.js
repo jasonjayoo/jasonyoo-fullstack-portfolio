@@ -1,5 +1,12 @@
 import React from "react";
+// import { useNavigate } from "react-router-dom";
 import profilePic from "../../assets/mypicture.jpg";
+
+// const navigate = useNavigate(); // Initialize the useNavigate hook
+
+// const handleBannerClick = () => {
+//   navigate("/about"); // Navigate to the About page when the h1 is clicked
+// };
 
 export default function About() {
   return (
