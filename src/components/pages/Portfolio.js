@@ -7,6 +7,7 @@ import weatherDashboard from "../../assets/theweatherdashboard.png";
 import codeQuiz from "../../assets/codequiz.png";
 import workDayPlanner from "../../assets/workdayplanner.png";
 import taskTracker from "../../assets/tasktracker.png";
+import susansAlterations from "../../assets/susansalterations.png";
 
 export default function Portfolio() {
   return (
@@ -56,32 +57,31 @@ export default function Portfolio() {
         </a>
 
         {/* Susan's Alterations */}
-        {/* <a
-          href="https://glacial-reef-71102.herokuapp.com/"
-          alt="The Cloud Casino Full Stack Web Application"
-          Title="This is a link to "
+        <a
+          href="https://bit.ly/susansalterations"
+          alt="Susans Alterations"
+          Title="This is a link to"
           target="_blank"
+          rel="noreferrer"
         >
           <div className="card">
             <img
               className="card-img-top"
-              src={cloudCasino}
-              alt="The Cloud Casino"
+              src={susansAlterations}
+              alt="Susans Alterations"
             />
             <div className="card-body">
-              <h5 className="card-title">The Cloud Casino</h5>
+              <h5 className="card-title">Susans Alterations</h5>
               <p className="card-text">
-                This application was created for users that are looking to
-                experience the fun of gambling without the actual risk of
-                monetary loss.
+                This application was created for customer searching for
+                tailoring and alterations services.
               </p>
               <ul>
-                <li>MySQL database with Sequelize queries</li>
-                <li>Sever side rendering using Handlebars</li>
-                <li>Role: Full Stack Developer</li>
+                <li>Built with React.js</li>
+                <li>Role: Web Developer</li>
               </ul>
               <a
-                href="https://glacial-reef-71102.herokuapp.com/"
+                href="https://bit.ly/susansalterations"
                 className="card-link"
                 target="_blank"
                 rel="noreferrer"
@@ -90,7 +90,7 @@ export default function Portfolio() {
               </a>
               <br />
               <a
-                href="https://github.com/jasonjayoo/The-Cloud-Casino"
+                href="https://github.com/jasonjayoo/susans-alterations-site"
                 className="card-link u-font--md"
                 target="_blank"
                 rel="noreferrer"
@@ -99,7 +99,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </a> */}
+        </a>
 
         {/* Food For Thought*/}
         <a
