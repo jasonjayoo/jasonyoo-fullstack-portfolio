@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.55c621e4.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.84a3c554.js",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.db68335b.js",
     "static/media/mypicturenyc.jpg": "/jasonyoo-fullstack-portfolio/static/media/mypicturenyc.ee7e33835ae8d99cffcf.jpg",
     "static/media/susansalterations.png": "/jasonyoo-fullstack-portfolio/static/media/susansalterations.3ad38240ebe91620503f.png",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
+    "static/media/revolve.png": "/jasonyoo-fullstack-portfolio/static/media/revolve.d6bdc33a7101ca2f0021.png",
     "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.5c92f8cf764a8c7d24a0.pdf",
+    "static/media/fwrd.png": "/jasonyoo-fullstack-portfolio/static/media/fwrd.c96bad92bf79b16671b2.png",
     "static/media/express.png": "/jasonyoo-fullstack-portfolio/static/media/express.6a3e055a6226b08114ef.png",
     "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.c003b68c00d13941f566.png",
-    "static/media/theweatherdashboard.png": "/jasonyoo-fullstack-portfolio/static/media/theweatherdashboard.3a60007872d3122edd53.png",
     "static/media/css3.png": "/jasonyoo-fullstack-portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
     "static/media/workdayplanner.png": "/jasonyoo-fullstack-portfolio/static/media/workdayplanner.8e05e57b7575c26fee35.png",
     "static/media/node.png": "/jasonyoo-fullstack-portfolio/static/media/node.da703b29096826d23e8d.png",
@@ -20,14 +21,13 @@
     "static/media/jquery.png": "/jasonyoo-fullstack-portfolio/static/media/jquery.0c43d8c2cd3fc08ecc40.png",
     "static/media/mysql.png": "/jasonyoo-fullstack-portfolio/static/media/mysql.8d53beb594a4b59e6ca9.png",
     "static/media/sequelize.png": "/jasonyoo-fullstack-portfolio/static/media/sequelize.8daf46c882d3f1f27d1f.png",
-    "static/media/techblog.png": "/jasonyoo-fullstack-portfolio/static/media/techblog.380525eab18c3e8435eb.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
     "main.55c621e4.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.55c621e4.css.map",
-    "main.84a3c554.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.84a3c554.js.map"
+    "main.db68335b.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.db68335b.js.map"
   },
   "entrypoints": [
     "static/css/main.55c621e4.css",
-    "static/js/main.84a3c554.js"
+    "static/js/main.db68335b.js"
   ]
 }
