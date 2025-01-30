@@ -83,13 +83,18 @@ export default function Portfolio() {
             />
             <div className="card-body">
               <h5 className="card-title">Susans Alterations</h5>
+
               <p className="card-text">
-                This application was created for customer searching for
-                tailoring and alterations services.
+                Susan's Alterations is a local mom and pop business 
+                located on commonwealth ave in Fullerton, California
+              </p>
+              <p className="card-text">
+                Established since 2015
               </p>
               <ul>
                 <li>Built with React.js</li>
                 <li>Role: Web Developer</li>
+                <li>Please call to set up an appointment!</li>
               </ul>
               <a
                 href="https://bit.ly/susansalterations"

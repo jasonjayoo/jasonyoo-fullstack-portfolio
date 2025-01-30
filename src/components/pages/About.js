@@ -1,6 +1,6 @@
 import React from "react";
 // import { useNavigate } from "react-router-dom";
-import profilePic from "../../assets/mypicture.jpg";
+import profilePic from "../../assets/mypicturenyc.jpg";
 
 // const navigate = useNavigate(); // Initialize the useNavigate hook
 
