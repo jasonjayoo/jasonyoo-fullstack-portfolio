@@ -2,12 +2,15 @@ import React from "react";
 // import cloudCasino from "../../assets/thecloudcasino.png";
 // import soundify from "../../assets/soundify.png";
 import foodForThought from "../../assets/foodforthought.png";
-import techBlog from "../../assets/techblog.png";
-import weatherDashboard from "../../assets/theweatherdashboard.png";
+// import techBlog from "../../assets/techblog.png";
+// import weatherDashboard from "../../assets/theweatherdashboard.png";
 import codeQuiz from "../../assets/codequiz.png";
 import workDayPlanner from "../../assets/workdayplanner.png";
 import taskTracker from "../../assets/tasktracker.png";
 import susansAlterations from "../../assets/susansalterations.png";
+
+import revolve from "../../assets/revolve.png";
+import fwrd from "../../assets/fwrd.png";
 
 export default function Portfolio() {
   return (
@@ -160,8 +163,88 @@ export default function Portfolio() {
           </div>
         </a>
 
-      {/*The Weather Dashboard*/}
+    {/*Revolve*/}
         <a
+          href="https://www.revolve.com/"
+          alt="Revolve"
+          Title="This is a link to "
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card">
+            <img
+              className="card-img-top"
+              src={revolve}
+              alt="Revolve"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Revolve.com</h5>
+              <p className="card-text">
+                Fashion E-commerce company based in Cerritos, California. 
+                A publically traded company valued at over one billion dollars
+              </p>
+              <ul>
+                <li>
+                  Created Cordial Email Marketing templates for digital marketing campaigns
+                </li>
+                <li>Very recently played key role in updating customer loyalty & shopping bag pages</li>
+                <li>Member of the UX/UI Department</li>
+                <li>Front-End Web Developer</li>
+              </ul>
+              <a
+                href="https://www.revolve.com/"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view live site!
+              </a>
+              <br />
+            </div>
+          </div>
+        </a>
+
+              {/*FWRD*/}
+        <a
+          href="https://www.fwrd.com/"
+          alt="forward"
+          Title="This is a link to "
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="card">
+            <img
+              className="card-img-top"
+              src={fwrd}
+              alt="Forward"
+            />
+            <div className="card-body">
+              <h5 className="card-title">FWRD</h5>
+              <p className="card-text">
+                Luxury Brand - High End Fashion E-Commerce Site.
+              </p>
+              <ul>
+                <li>
+                  Created the landing page and logic for the FAQs page and customer loyalty pages
+                </li>
+                <li>Member of the UI/UX Department</li>
+                <li>Front End Web Developer</li>
+              </ul>
+              <a
+                href="https://www.fwrd.com/"
+                className="card-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Click to view live site!
+              </a>
+              <br />
+            </div>
+          </div>
+        </a>
+
+      {/*The Weather Dashboard*/}
+        {/* <a
           href="https://jasonjayoo.github.io/The-Weather-Dash/"
           alt="Weather Dashboard"
           Title="This is a link to "
@@ -206,11 +289,11 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </a>
+        </a> */}
 
 
         {/*The Tech Blog*/}
-        <a
+        {/* <a
           href="https://quiet-journey-86661.herokuapp.com/"
           alt="The Tech Blog"
           Title="This is a link to "
@@ -250,7 +333,7 @@ export default function Portfolio() {
               </a>
             </div>
           </div>
-        </a>
+        </a> */}
 
         {/*The Coding Quiz*/}
         <a
