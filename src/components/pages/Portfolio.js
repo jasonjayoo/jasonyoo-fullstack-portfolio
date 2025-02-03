@@ -547,14 +547,16 @@ const ProjectCard = ({ project }) => (
           Click to view live site!
         </a>
         <br />
-        <a
-          href={project.repo}
-          className="card-link u-font--md"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Click to view the GitHub repository!
-        </a>
+        {project.repo && (
+          <a
+            href={project.repo}
+            className="card-link u-font--md"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Click to view the GitHub repository!
+          </a>
+        )}
       </div>
     </div>
   </a>
