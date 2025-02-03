@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      // Redirect to the correct page on refresh
+      var path = window.location.pathname;
+      var basePath = "/jasonyoo-fullstack-portfolio";
+      if (path.startsWith(basePath)) {
+        window.location.replace(basePath + "/#" + path.replace(basePath + "/", ""));
+      } else {
+        window.location.replace("/#about"); // Default to About
+      }
+    </script>
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
