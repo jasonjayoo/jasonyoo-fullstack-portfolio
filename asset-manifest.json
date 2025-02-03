@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.55c621e4.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.19f6ca4e.js",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.a8c533ea.js",
     "static/media/mypicturenyc.jpg": "/jasonyoo-fullstack-portfolio/static/media/mypicturenyc.ee7e33835ae8d99cffcf.jpg",
     "static/media/susansalterations.png": "/jasonyoo-fullstack-portfolio/static/media/susansalterations.3ad38240ebe91620503f.png",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
     "static/media/revolve.png": "/jasonyoo-fullstack-portfolio/static/media/revolve.d6bdc33a7101ca2f0021.png",
-    "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.5c92f8cf764a8c7d24a0.pdf",
+    "static/media/resume.pdf": "/jasonyoo-fullstack-portfolio/static/media/resume.1d9ecec260f0b5841422.pdf",
     "static/media/fwrd.png": "/jasonyoo-fullstack-portfolio/static/media/fwrd.c96bad92bf79b16671b2.png",
     "static/media/express.png": "/jasonyoo-fullstack-portfolio/static/media/express.6a3e055a6226b08114ef.png",
     "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.c003b68c00d13941f566.png",
@@ -24,10 +24,10 @@
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
     "main.55c621e4.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.55c621e4.css.map",
-    "main.19f6ca4e.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.19f6ca4e.js.map"
+    "main.a8c533ea.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.a8c533ea.js.map"
   },
   "entrypoints": [
     "static/css/main.55c621e4.css",
-    "static/js/main.19f6ca4e.js"
+    "static/js/main.a8c533ea.js"
   ]
 }
