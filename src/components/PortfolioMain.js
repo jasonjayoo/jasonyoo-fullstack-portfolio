@@ -48,8 +48,11 @@ function PortfolioMain() {
 
     if (validPages.includes(hash)) {
       setCurrentPage(hash.charAt(0).toUpperCase() + hash.slice(1)); // Convert "portfolio" -> "Portfolio"
+    } else {
+      // Default to About if no valid hash
+      setCurrentPage("About");
     }
-  }, []);
+  }, [window.location.hash]);
 
   return (
     <div>
