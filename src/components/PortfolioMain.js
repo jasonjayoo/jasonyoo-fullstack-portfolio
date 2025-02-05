@@ -41,18 +41,29 @@ import NavBar from "./NavBar";
 function PortfolioMain() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  useEffect(() => {
-    // Read the hash from the URL (if it exists)
-    const hash = window.location.hash.replace("#", "").toLowerCase();
-    const validPages = ["about", "portfolio", "contact", "resume"];
+  // useEffect(() => {
+  //   // Read the hash from the URL (if it exists)
+  //   const hash = window.location.hash.replace("#", "").toLowerCase();
+  //   const validPages = ["about", "portfolio", "contact", "resume"];
 
-    if (validPages.includes(hash)) {
-      setCurrentPage(hash.charAt(0).toUpperCase() + hash.slice(1)); // Convert "portfolio" -> "Portfolio"
+  //   if (validPages.includes(hash)) {
+  //     setCurrentPage(hash.charAt(0).toUpperCase() + hash.slice(1)); // Convert "portfolio" -> "Portfolio"
+  //   } else {
+  //     // Default to About if no valid hash
+  //     setCurrentPage("About");
+  //   }
+  // }, [window.location.hash]);
+
+  useEffect(() => {
+    const path = window.location.pathname.replace("/jasonyoo-fullstack-portfolio/", "").toLowerCase();
+    const validPages = ["about", "portfolio", "contact", "resume"];
+  
+    if (validPages.includes(path)) {
+      setCurrentPage(path.charAt(0).toUpperCase() + path.slice(1));
     } else {
-      // Default to About if no valid hash
       setCurrentPage("About");
     }
-  }, [window.location.hash]);
+  }, []);
 
   return (
     <div>
