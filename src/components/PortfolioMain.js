@@ -32,49 +32,64 @@
 // }
 
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import NavBar from "./NavBar";
 
+// function PortfolioMain() {
+//   const [currentPage, setCurrentPage] = useState("About");
+//   useEffect(() => {
+//     const path = window.location.pathname.replace("/jasonyoo-fullstack-portfolio/", "").toLowerCase();
+//     const validPages = ["about", "portfolio", "contact", "resume"];
+  
+//     if (validPages.includes(path)) {
+//       setCurrentPage(path.charAt(0).toUpperCase() + path.slice(1));
+//     } else {
+//       setCurrentPage("About");
+//     }
+//   }, []);
+
+//   return (
+//     <div>
+//       <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+//       <main>
+//         {currentPage === "About" && <About />}
+//         {currentPage === "Portfolio" && <Portfolio />}
+//         {currentPage === "Contact" && <Contact />}
+//         {currentPage === "Resume" && <Resume />}
+//       </main>
+//     </div>
+//   );
+// }
+
+// export default PortfolioMain;
+
 function PortfolioMain() {
-  const [currentPage, setCurrentPage] = useState("About");
-
-  // useEffect(() => {
-  //   // Read the hash from the URL (if it exists)
-  //   const hash = window.location.hash.replace("#", "").toLowerCase();
-  //   const validPages = ["about", "portfolio", "contact", "resume"];
-
-  //   if (validPages.includes(hash)) {
-  //     setCurrentPage(hash.charAt(0).toUpperCase() + hash.slice(1)); // Convert "portfolio" -> "Portfolio"
-  //   } else {
-  //     // Default to About if no valid hash
-  //     setCurrentPage("About");
-  //   }
-  // }, [window.location.hash]);
-
   useEffect(() => {
+    // Optional: You can update your document title based on current page
     const path = window.location.pathname.replace("/jasonyoo-fullstack-portfolio/", "").toLowerCase();
     const validPages = ["about", "portfolio", "contact", "resume"];
-  
-    if (validPages.includes(path)) {
-      setCurrentPage(path.charAt(0).toUpperCase() + path.slice(1));
-    } else {
-      setCurrentPage("About");
+    if (!validPages.includes(path)) {
+      window.location.href = "/jasonyoo-fullstack-portfolio/about"; // Redirect to About if invalid path
     }
   }, []);
 
   return (
-    <div>
-      <NavBar currentPage={currentPage} setCurrentPage={setCurrentPage} />
+    <Router basename="/jasonyoo-fullstack-portfolio">
+      <NavBar />
       <main>
-        {currentPage === "About" && <About />}
-        {currentPage === "Portfolio" && <Portfolio />}
-        {currentPage === "Contact" && <Contact />}
-        {currentPage === "Resume" && <Resume />}
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/" element={<About />} /> {/* Default route */}
+        </Routes>
       </main>
-    </div>
+    </Router>
   );
 }
 
