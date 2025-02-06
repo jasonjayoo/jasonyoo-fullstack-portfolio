@@ -413,10 +413,12 @@ text-shadow: 1px 1px 1px #020706, 1px 2px 1px #020706, 1px 3px 1px #020706,
   margin: 11px 0 4px 10px;
   padding: 0;
   cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .mobile-header:hover {
-  color: rgb(165 255 231);
+
+  transform: translateY(-1.5px);
 }
 
 

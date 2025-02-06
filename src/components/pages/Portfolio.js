@@ -445,6 +445,8 @@ import revolve from "../../assets/revolve.png";
 import fwrd from "../../assets/fwrd.png";
 import superdown from "../../assets/superdown.png";
 import lf from "../../assets/lf.png";
+import blockwood from "../../assets/blockwood.png";
+import wordpress from "../../assets/wordpress.png"
 
 const personalProjects = [
   {
@@ -486,6 +488,21 @@ const personalProjects = [
     link: "https://bit.ly/susansalterations",
     repo: "https://github.com/jasonjayoo/susans-alterations-site",
     tech: ["React.js"],
+  },
+  {
+    name: "Blockwood",
+    img: blockwood,
+    description: "Video Play Entertain Demo Site",
+    link: "https://jasonjayoo.github.io/blockwood/",
+    repo: "https://github.com/jasonjayoo/blockwood",
+    tech: ["React.js", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    name: "Wordpress Portfolio",
+    img: wordpress,
+    description: "The Work Day Scheduler allows you to plan your work day...",
+    link: "https://bit.ly/jasonyoowordpress",
+    tech: ["Wordpress", "Custom HTML"],
   },
 ];
 

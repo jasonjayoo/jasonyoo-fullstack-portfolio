@@ -142,7 +142,9 @@ function NavBar({ currentPage, setCurrentPage }) {
   const handleNavigation = (page) => {
     setCurrentPage(page);
     const basePath = "/jasonyoo-fullstack-portfolio"; 
-    window.history.pushState(null, "", `${basePath}/${page.toLowerCase()}`);
+    const pagePath = page.toLowerCase();
+
+    window.history.pushState(null, "", `${basePath}/${pagePath}`);
     setMenuOpen(false);
   };
 
