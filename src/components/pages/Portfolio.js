@@ -450,6 +450,29 @@ import wordpress from "../../assets/wordpress.png"
 
 const personalProjects = [
   {
+    name: "Susan's Alterations",
+    img: susansAlterations,
+    description: "Susan's Alterations is a local mom-and-pop business...",
+    link: "https://bit.ly/susansalterations",
+    repo: "https://github.com/jasonjayoo/susans-alterations-site",
+    tech: ["React.js"],
+  },
+  {
+    name: "Blockwood",
+    img: blockwood,
+    description: "Video Play Entertain Demo Site",
+    link: "https://jasonjayoo.github.io/blockwood/",
+    repo: "https://github.com/jasonjayoo/blockwood",
+    tech: ["React.js", "Tailwind CSS", "TypeScript"],
+  },
+  {
+    name: "Wordpress Portfolio",
+    img: wordpress,
+    description: "The Work Day Scheduler allows you to plan your work day...",
+    link: "https://bit.ly/jasonyoowordpress",
+    tech: ["Wordpress", "Custom HTML"],
+  },
+  {
     name: "Food For Thought",
     img: foodForThought,
     description: "This application was created for foodies with busy schedules...",
@@ -480,29 +503,6 @@ const personalProjects = [
     link: "https://jasonjayoo.github.io/The-Work-Day-Planner/",
     repo: "https://github.com/jasonjayoo/The-Work-Day-Planner",
     tech: ["jQuery", "Bootstrap", "Moment.js"],
-  },
-  {
-    name: "Susan's Alterations",
-    img: susansAlterations,
-    description: "Susan's Alterations is a local mom-and-pop business...",
-    link: "https://bit.ly/susansalterations",
-    repo: "https://github.com/jasonjayoo/susans-alterations-site",
-    tech: ["React.js"],
-  },
-  {
-    name: "Blockwood",
-    img: blockwood,
-    description: "Video Play Entertain Demo Site",
-    link: "https://jasonjayoo.github.io/blockwood/",
-    repo: "https://github.com/jasonjayoo/blockwood",
-    tech: ["React.js", "Tailwind CSS", "TypeScript"],
-  },
-  {
-    name: "Wordpress Portfolio",
-    img: wordpress,
-    description: "The Work Day Scheduler allows you to plan your work day...",
-    link: "https://bit.ly/jasonyoowordpress",
-    tech: ["Wordpress", "Custom HTML"],
   },
 ];
 
