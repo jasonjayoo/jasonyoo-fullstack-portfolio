@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.d8be534c.css",
-    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.1e58fb47.js",
+    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.17bef854.css",
+    "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.c54c4eca.js",
     "static/media/mypicturenyc.jpg": "/jasonyoo-fullstack-portfolio/static/media/mypicturenyc.ee7e33835ae8d99cffcf.jpg",
     "static/media/susansalterations.png": "/jasonyoo-fullstack-portfolio/static/media/susansalterations.3ad38240ebe91620503f.png",
     "static/media/foodforthought.png": "/jasonyoo-fullstack-portfolio/static/media/foodforthought.39dea84a86f70eaa0b8f.png",
@@ -13,6 +13,8 @@
     "static/media/express.png": "/jasonyoo-fullstack-portfolio/static/media/express.6a3e055a6226b08114ef.png",
     "static/media/codequiz.png": "/jasonyoo-fullstack-portfolio/static/media/codequiz.c003b68c00d13941f566.png",
     "static/media/css3.png": "/jasonyoo-fullstack-portfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
+    "static/media/wordpress.png": "/jasonyoo-fullstack-portfolio/static/media/wordpress.2ddd30ea8b93724eaeec.png",
+    "static/media/blockwood.png": "/jasonyoo-fullstack-portfolio/static/media/blockwood.12de1ff1dd3f7f279dbe.png",
     "static/media/workdayplanner.png": "/jasonyoo-fullstack-portfolio/static/media/workdayplanner.8e05e57b7575c26fee35.png",
     "static/media/node.png": "/jasonyoo-fullstack-portfolio/static/media/node.da703b29096826d23e8d.png",
     "static/media/mongoose.png": "/jasonyoo-fullstack-portfolio/static/media/mongoose.d7449f046ea0ee2350b5.png",
@@ -25,11 +27,11 @@
     "static/media/sequelize.png": "/jasonyoo-fullstack-portfolio/static/media/sequelize.8daf46c882d3f1f27d1f.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
-    "main.d8be534c.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.d8be534c.css.map",
-    "main.1e58fb47.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.1e58fb47.js.map"
+    "main.17bef854.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.17bef854.css.map",
+    "main.c54c4eca.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.c54c4eca.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8be534c.css",
-    "static/js/main.1e58fb47.js"
+    "static/css/main.17bef854.css",
+    "static/js/main.c54c4eca.js"
   ]
 }
