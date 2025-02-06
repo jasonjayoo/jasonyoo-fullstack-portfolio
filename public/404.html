@@ -1,21 +1,53 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/" />
-    <script>
-      // Redirect to the correct page on refresh
-      var path = window.location.pathname;
-      var basePath = "/jasonyoo-fullstack-portfolio";
-      if (path.startsWith(basePath)) {
-        window.location.replace(basePath + "/#" + path.replace(basePath + "/", ""));
-      } else {
-        window.location.replace("/#about"); // Default to About
-      }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
+    <script>
+      (function() {
+        var path = window.location.pathname;
+        var basePath = "/jasonyoo-fullstack-portfolio";
+        var newPath = path.replace(basePath + "/", "");
+  
+        if (newPath && newPath !== "/") {
+          setTimeout(() => {
+            window.location.replace(basePath + "/#" + newPath);
+          }, 100); // Small delay to ensure it executes properly
+        } else {
+          window.location.replace(basePath + "/#about");
+        }
+      })();
+    </script>
   </head>
   <body>
     Redirecting...
   </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    (function() {
+      var basePath = "/jasonyoo-fullstack-portfolio";
+      var path = window.location.pathname.replace(basePath, "").replace(/^\/+/, ""); // Remove extra slashes
+      
+      if (path && path !== "/") {
+        setTimeout(() => {
+          window.location.replace(basePath + "/#" + path);
+        }, 100);
+      } else {
+        window.location.replace(basePath + "/#about");
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
 </html>
