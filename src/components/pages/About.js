@@ -21,8 +21,8 @@ export default function About() {
       <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
         <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">About Me</h2>
         <p className="u-padding-t--none">
-          I am a Full-Stack Web Developer with over 5 years of experience in creating high-quality, responsive, and user-focused web applications. 
-          My expertise lies in mobile-first, scalable development using technologies like React.js, Tailwind CSS, JavaScript, jQuery, Node.js, MySQL, and MongoDB. 
+          I am a Front-End Web Developer with over 5 years of experience in creating high-quality, responsive, and user-focused web applications. 
+          My expertise lies in mobile-first, scalable development using technologies like React.js, Tailwind CSS, JavaScript, Figma, Abode XD, Node.js, jQuery, MySQL, and MongoDB. 
           I am passionate about delivering seamless and intuitive user experiences, with a strong focus on performance optimization (CLS, FCP, LCP) and SEO best practices.
         </p>
       </section>
