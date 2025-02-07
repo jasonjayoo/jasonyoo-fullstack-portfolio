@@ -201,7 +201,7 @@ function NavBar({ currentPage, setCurrentPage }) {
               onClick={() => handleNavigation(page)}
               className={currentPage === page ? "nav-item nav-link active" : "nav-item nav-link"}
             >
-              {page}
+              <span className="main-nav-options">{page}</span>
             </button>
           ))}
         </div>
