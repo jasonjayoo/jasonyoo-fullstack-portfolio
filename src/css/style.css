@@ -356,11 +356,6 @@ transition: transform 0.3s ease, color 0.3s ease;
   transform: translateY(-1.5px);
 }
 
-
-/* #tabs .nav-fill .nav-item, #tabs .nav-fill>.nav-link {
-flex: 1;
-} */
-
 #carouselExampleControls,
 #carouselExampleControls2 {
 max-width: 275px;

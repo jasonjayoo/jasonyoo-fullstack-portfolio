@@ -8,19 +8,8 @@ import NavBar from "./NavBar";
 function PortfolioMain() {
   const [currentPage, setCurrentPage] = useState("About");
 
-  // useEffect(() => {
-  //   const path = window.location.pathname.replace("/jasonyoo-fullstack-portfolio/", "").toLowerCase();
-  //   const validPages = ["about", "portfolio", "contact", "resume"];
-  
-  //   if (validPages.includes(path)) {
-  //     setCurrentPage(path.charAt(0).toUpperCase() + path.slice(1));
-  //   } else {
-  //     setCurrentPage("About");
-  //   }
-  // }, []);
-
   useEffect(() => {
-    const basePath = "/jasonyoo-fullstack-portfolio";
+    // const basePath = "/jasonyoo-fullstack-portfolio";
     const path = window.location.hash.replace("#", "").toLowerCase();
     const validPages = ["about", "portfolio", "contact", "resume"];
   
