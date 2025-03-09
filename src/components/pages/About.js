@@ -18,7 +18,7 @@ export default function About() {
         <span className="main-title">Professional Web Developer</span>
       </h1>
 
-      <section className="u-padding-b--lg u-padding-t--lg u-text-align--center">
+      <section className="u-padding-b--lg u-padding-t--xxl u-text-align--center">
         <h2 className="u-padding-b--sm u-padding-t--lg u-font--xl">About Me</h2>
         <p className="u-padding-t--none">
           I am a Front-End Web Developer with over 5 years of experience in creating high-quality, responsive, and user-focused web applications. 

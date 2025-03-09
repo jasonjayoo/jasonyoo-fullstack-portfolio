@@ -9,6 +9,12 @@ function Contact() {
   const [validated, setValidated] = useState(true);
   const [validName, setValidName] = useState(true);
   const [validMessage, setValidMessage] = useState(false);
+  
+  const [content, setContent] = useState({
+    from_name: "",
+    from_email: "",
+    message: "",
+  });
 
   const sendEmail = async (content) => {
     init(userId);
@@ -22,12 +28,6 @@ function Contact() {
 
     await send(serviceId, templateId, toSend);
   };
-
-  const [content, setContent] = useState({
-    from_name: "",
-    from_email: "",
-    message: "",
-  });
 
   // function validateEmail(event) {
   //   const email = event.target.value;

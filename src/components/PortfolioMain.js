@@ -9,7 +9,6 @@ function PortfolioMain() {
   const [currentPage, setCurrentPage] = useState("About");
 
   useEffect(() => {
-    // const basePath = "/jasonyoo-fullstack-portfolio";
     const path = window.location.hash.replace("#", "").toLowerCase();
     const validPages = ["about", "portfolio", "contact", "resume"];
   
