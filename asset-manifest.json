@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.69d54e23.css",
+    "main.css": "/jasonyoo-fullstack-portfolio/static/css/main.d5899b02.css",
     "main.js": "/jasonyoo-fullstack-portfolio/static/js/main.49212c20.js",
     "static/media/mypicturenyc.jpg": "/jasonyoo-fullstack-portfolio/static/media/mypicturenyc.ee7e33835ae8d99cffcf.jpg",
     "static/media/susansalterations.png": "/jasonyoo-fullstack-portfolio/static/media/susansalterations.3ad38240ebe91620503f.png",
@@ -27,11 +27,11 @@
     "static/media/sequelize.png": "/jasonyoo-fullstack-portfolio/static/media/sequelize.8daf46c882d3f1f27d1f.png",
     "static/media/bulma.png": "/jasonyoo-fullstack-portfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
     "index.html": "/jasonyoo-fullstack-portfolio/index.html",
-    "main.69d54e23.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.69d54e23.css.map",
+    "main.d5899b02.css.map": "/jasonyoo-fullstack-portfolio/static/css/main.d5899b02.css.map",
     "main.49212c20.js.map": "/jasonyoo-fullstack-portfolio/static/js/main.49212c20.js.map"
   },
   "entrypoints": [
-    "static/css/main.69d54e23.css",
+    "static/css/main.d5899b02.css",
     "static/js/main.49212c20.js"
   ]
 }
